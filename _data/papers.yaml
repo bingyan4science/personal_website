@@ -1,16 +1,16 @@
 notable: 
-    - title: "Cascaded Text Generation with Markov Transformers"
-      authors: Yuntian Deng, Alexander M. Rush
-      pdf: https://arxiv.org/pdf/2006.01112
+    - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
+      authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
+      pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
       image: /images/cascade.png
       slides: /slides/neurips20_cascaded_generation_10min.pdf
-      conference: NeurIPS 2020
-    - title: "Residual Energy-Based Models for Text Generation"
-      authors: Yuntian Deng, Anton Bakhtin, Myle Ott, Arthur Szlam, Marc'Aurelio Ranzato
-      conference: ICLR 2020
-      pdf : https://openreview.net/pdf?id=B1l4SgHKDH
-      slides: /slides/openai_EBM.pdf
-      code: https://github.com/da03/Residual-EBM
+      conference: In Revision. ChemRxiv Preprint
+    - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
+      authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
+      conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
+      pdf : https://doi.org/10.1021/jacs.9b03327
+      #slides: /slides/openai_EBM.pdf
+      #code: https://github.com/da03/Residual-EBM
       image: /images/ICLR20_REBM.png
     - title: "Latent Alignment and Variational Attention"
       authors: Yuntian Deng*, Yoon Kim*, Justin Chiu, Demi Guo, Alexander M. Rush
