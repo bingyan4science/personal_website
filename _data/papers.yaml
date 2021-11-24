@@ -4,7 +4,7 @@ notable:
       pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
       image: /images/cascade.png
       slides: /slides/neurips20_cascaded_generation_10min.pdf
-      conference: In Revision. ChemRxiv Preprint
+      conference: In Revision. ChemRxiv 2021 Preprint
     - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
@@ -27,13 +27,11 @@ papers:
       pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
       image: /images/cascade.png
       slides: /slides/neurips20_cascaded_generation_10min.pdf
-      conference: In Revision. ChemRxiv Preprint
+      conference: In Revision. ChemRxiv 2021 Preprint
     - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
       pdf : https://doi.org/10.1021/jacs.9b03327
-      #slides: /slides/openai_EBM.pdf
-      #code: https://github.com/da03/Residual-EBM
       image: /images/ICLR20_REBM.png
     - title: "Suppressing Ion Transfer Enables Versatile Measurements of Electrochemical Surface Area for Intrinsic Activity Comparisons"
       authors: Youngmin Yoon, Bing Yan, Yogesh Surendranath
@@ -44,7 +42,6 @@ papers:
       authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
       conference: Joule 2017, 1, 600-612. Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
       pdf : https://doi.org/10.1016/j.joule.2017.08.020
-      #code: https://github.com/harvardnlp/var-attn
       image: /images/VariationalAttention.png
     - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
       authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
