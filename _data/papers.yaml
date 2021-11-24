@@ -9,8 +9,6 @@ notable:
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
       pdf : https://doi.org/10.1021/jacs.9b03327
-      #slides: /slides/openai_EBM.pdf
-      #code: https://github.com/da03/Residual-EBM
       image: /images/ICLR20_REBM.png
     - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
       authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
