@@ -22,7 +22,7 @@ notable:
       conference: Angew. Chem. Int. Ed. 2017, 56, 7496-7499
       image: /images/emnlp19_arithmetic.png
 papers:
-     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
+    - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
       image: /images/cascade.png
