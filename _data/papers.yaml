@@ -2,66 +2,63 @@ notable:
     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
-      image: /images/cascade.png
-      slides: /slides/neurips20_cascaded_generation_10min.pdf
+      image: /images/ChemSusChem2021.png
       conference: In Revision. ChemRxiv 2021 Preprint
     - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
       pdf : https://doi.org/10.1021/jacs.9b03327
-      image: /images/ICLR20_REBM.png
+      image: /images/JACS2019.gif
     - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
       authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
       conference: Joule 2017, 1, 600-612. Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
       pdf : https://doi.org/10.1016/j.joule.2017.08.020
       #code: https://github.com/harvardnlp/var-attn
-      image: /images/VariationalAttention.png
+      image: /images/Joule2017.jpg
     - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
       authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
       pdf: https://doi.org/10.1002/anie.201702578
       conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
-      image: /images/emnlp19_arithmetic.png
+      image: /images/anie2017.png
 papers:
     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
-      image: /images/cascade.png
-      slides: /slides/neurips20_cascaded_generation_10min.pdf
+      image: /images/ChemSusChem2021.png
       conference: In Revision. ChemRxiv 2021 Preprint
     - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
       pdf : https://doi.org/10.1021/jacs.9b03327
-      image: /images/ICLR20_REBM.png
+      image: /images/JACS2019.gif
     - title: "Suppressing Ion Transfer Enables Versatile Measurements of Electrochemical Surface Area for Intrinsic Activity Comparisons"
       authors: Youngmin Yoon, Bing Yan, Yogesh Surendranath
       pdf: https://doi.org/10.1021/jacs.7b10966
-      image: /images/neurips21_lowrank.png
+      image: /images/jacs2018.gif
       conference: J. Am. Chem. Soc. 2018, 140, 2397-2400
     - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
       authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
       conference: Joule 2017, 1, 600-612. Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
       pdf : https://doi.org/10.1016/j.joule.2017.08.020
-      image: /images/VariationalAttention.png
+      image: /images/Joule2017.jpg
     - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
       authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
       pdf: https://doi.org/10.1002/anie.201702578
       conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
-      image: /images/emnlp19_arithmetic.png
+      image: /images/anie2017.png
     - title: "Dinuclear Dysprosium SMMs Bridged by a Neutral Bipyrimidine Ligand: Two Crystal Systems that Depend on Different Lattice Solvents Lead to a Distinct Slow Relaxation Behavior"
       authors: Wen-Bin Sun, Bing Yan, Li-Hui Jia, Bing-Wu Wang, Qian Yang, Xin Cheng, Hong-Feng Li, Peng Chen, Zhe-Ming Wang, Song Gao
       pdf: DOI	https://doi.org/10.1039/C6DT01082B
-      image: /images/neurips21_lowrank.png
+      image: /images/Dalton2016.png
       conference: Dalton Trans. 2016, 45, 8790-8794
     - title: "Heazlewoodite, Ni3S2: A Potent Catalyst for Oxygen Reduction to Water under Benign Conditions"
       authors: Joseph M. Falkowski, Nolan M. Concannon, Bing Yan, Yogesh Surendranath
       pdf: https://doi.org/10.1021/jacs.5b03426
-      image: /images/emnlp21_seq2lattice.png
+      image: /images/jacs2015.gif
       conference: J. Am. Chem. Soc. 2015, 137, 7978-7981
     - title: "The Slow Magnetic Relaxation Regulated by Ligand Conformation of a Lanthanide Single-Ion Magnet [Hex4N][Dy(DBM)4]"
       authors: Wen-Bin Sun, Bing Yan, Yi-Quan Zhang, Bing-Wu Wang, Zhe-Ming Wang, Jun-Hua Jia, Song Gao
       pdf: 10.1039/c4qi00057a
-      image: /images/emnlp21_rationale.png
-      slides: 
+      image: /images/ICF2014.png
       conference: Inorg. Chem. Front. 2014, 1, 503-509
  
