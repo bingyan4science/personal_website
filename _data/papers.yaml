@@ -12,146 +12,61 @@ notable:
       #slides: /slides/openai_EBM.pdf
       #code: https://github.com/da03/Residual-EBM
       image: /images/ICLR20_REBM.png
-    - title: "Latent Alignment and Variational Attention"
-      authors: Yuntian Deng*, Yoon Kim*, Justin Chiu, Demi Guo, Alexander M. Rush
-      conference: NIPS 2018
-      pdf : https://papers.nips.cc/paper/8179-latent-alignment-and-variational-attention.pdf
-      code: https://github.com/harvardnlp/var-attn
+    - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
+      authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
+      conference: Joule 2017, 1, 600-612. Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
+      pdf : https://doi.org/10.1016/j.joule.2017.08.020
+      #code: https://github.com/harvardnlp/var-attn
       image: /images/VariationalAttention.png
-    - title: "Image-to-Markup Generation with Coarse-to-Fine Attention"
-      authors: Yuntian Deng, Anssi Kanervisto, Jeffrey Ling, and Alexander M. Rush
-      conference: ICML 2017
-      pdf : http://lstm.seas.harvard.edu/latex/
-      code : http://lstm.seas.harvard.edu/latex/
-      image: https://camo.githubusercontent.com/5a6350632dd43b69fff7f41928f27b8c8eb9a7d9/687474703a2f2f6c73746d2e736561732e686172766172642e6564752f6c617465782f6d61746865782e706e67
-      slides: /slides/icml17.pdf
-    - title: "Neural Linguistic Steganography"
-      authors: Zachary Ziegler*, Yuntian Deng*, Alexander Rush
-      pdf: https://arxiv.org/abs/1909.01496
-      conference: EMNLP 2019 (oral)
+    - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
+      authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
+      pdf: https://doi.org/10.1002/anie.201702578
+      conference: Angew. Chem. Int. Ed. 2017, 56, 7496-7499
       image: /images/emnlp19_arithmetic.png
-    - title: "OpenNMT: Open-Source Toolkit for Neural Machine Translation"
-      authors: Guillaume Klein, Yoon Kim, Yuntian Deng, Jean Senellart, Alexander M. Rush
-      conference: ACL Demo 2017 (Best Demo Runner-up)
-      pdf : https://arxiv.org/abs/1701.02810
-      image: /images/overview.png
-      slides:
 papers:
-    - title: "Low-Rank Constraints for Fast Inference in Structured Models"
-      authors: Justin Chiu*, Yuntian Deng*, Alexander M. Rush
-      pdf: https://openreview.net/pdf?id=9Zi7t3c5CuF
+     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
+      authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
+      pdf: https://doi.org/10.26434/chemrxiv.14525619.v1
+      image: /images/cascade.png
+      slides: /slides/neurips20_cascaded_generation_10min.pdf
+      conference: In Revision. ChemRxiv Preprint
+    - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
+      authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
+      conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
+      pdf : https://doi.org/10.1021/jacs.9b03327
+      #slides: /slides/openai_EBM.pdf
+      #code: https://github.com/da03/Residual-EBM
+      image: /images/ICLR20_REBM.png
+    - title: "Suppressing Ion Transfer Enables Versatile Measurements of Electrochemical Surface Area for Intrinsic Activity Comparisons"
+      authors: Youngmin Yoon, Bing Yan, Yogesh Surendranath
+      pdf: https://doi.org/10.1021/jacs.7b10966
       image: /images/neurips21_lowrank.png
-      slides: /slides/neurips21_lowrank.pdf
-      conference: NeurIPS 2021
-    - title: "Sequence-to-Lattice Models for Fast Translation"
-      authors: Yuntian Deng, Alexander M. Rush
-      pdf: 
+      conference: J. Am. Chem. Soc. 2018, 140, 2397-2400
+    - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
+      authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
+      conference: Joule 2017, 1, 600-612. Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
+      pdf : https://doi.org/10.1016/j.joule.2017.08.020
+      #code: https://github.com/harvardnlp/var-attn
+      image: /images/VariationalAttention.png
+    - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
+      authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
+      pdf: https://doi.org/10.1002/anie.201702578
+      conference: Angew. Chem. Int. Ed. 2017, 56, 7496-7499
+      image: /images/emnlp19_arithmetic.png
+    - title: "Dinuclear Dysprosium SMMs Bridged by a Neutral Bipyrimidine Ligand: Two Crystal Systems that Depend on Different Lattice Solvents Lead to a Distinct Slow Relaxation Behavior"
+      authors: Wen-Bin Sun, Bing Yan, Li-Hui Jia, Bing-Wu Wang, Qian Yang, Xin Cheng, Hong-Feng Li, Peng Chen, Zhe-Ming Wang, Song Gao
+      pdf: DOI	https://doi.org/10.1039/C6DT01082B
+      image: /images/neurips21_lowrank.png
+      conference: Dalton Trans. 2016, 45, 8790-8794
+    - title: "Heazlewoodite, Ni3S2: A Potent Catalyst for Oxygen Reduction to Water under Benign Conditions"
+      authors: Joseph M. Falkowski, Nolan M. Concannon, Bing Yan, Yogesh Surendranath
+      pdf: https://doi.org/10.1021/jacs.5b03426
       image: /images/emnlp21_seq2lattice.png
-      slides: /slides/emnlp21_seq2lattice.pdf
-      conference: EMNLP 2021 Findings
-    - title: "Rationales for Sequential Predictions"
-      authors: Keyon Vafa, Yuntian Deng, David Blei, Alexander Rush
-      pdf: https://arxiv.org/pdf/2109.06387.pdf
+      conference: J. Am. Chem. Soc. 2015, 137, 7978-7981
+    - title: "The Slow Magnetic Relaxation Regulated by Ligand Conformation of a Lanthanide Single-Ion Magnet [Hex4N][Dy(DBM)4]"
+      authors: Wen-Bin Sun, Bing Yan, Yi-Quan Zhang, Bing-Wu Wang, Zhe-Ming Wang, Jun-Hua Jia, Song Gao
+      pdf: 10.1039/c4qi00057a
       image: /images/emnlp21_rationale.png
       slides: 
-      conference: EMNLP 2021 (oral)
-    - title: "Residual Energy-Based Models for Text"
-      authors: Anton Bakhtin*, Yuntian Deng*, Sam Gross, Myle Ott, Marc'Aurelio Ranzato, Arthur Szlam
-      pdf: https://www.jmlr.org/papers/v22/20-326.html
-      image: /images/ICLR20_REBM.png
-      conference: JMLR 2021
-    - title: "Cascaded Text Generation with Markov Transformers"
-      authors: Yuntian Deng, Alexander M. Rush
-      pdf: https://arxiv.org/pdf/2006.01112
-      image: /images/cascade.png
-      conference: NeurIPS 2020
-      slides: /slides/neurips20_cascaded_generation_10min.pdf
-    - title: "Residual Energy-Based Models for Text Generation"
-      authors: Yuntian Deng, Anton Bakhtin, Myle Ott, Arthur Szlam, Marc'Aurelio Ranzato
-      conference: ICLR 2020
-      pdf : https://openreview.net/pdf?id=B1l4SgHKDH
-      code: https://github.com/da03/Residual-EBM
-      slides: /slides/openai_EBM.pdf
-      image: /images/ICLR20_REBM.png
-    - title: "AdaptivFloat: A Floating-point based Data Type for Resilient Deep Learning Inference"
-      authors: Thierry Tambe, En-Yu Yang, Zishen Wan, Yuntian Deng, Vijay Janapa Reddi, Alexander Rush, David Brooks, Gu-Yeon Wei
-      pdf: https://arxiv.org/pdf/1909.13271
-      image: /images/adapt.png
-      conference: DAC 2020 (Best Paper)
-    - title: "Neural Linguistic Steganography"
-      authors: Zachary Ziegler*, Yuntian Deng*, Alexander Rush
-      pdf: https://arxiv.org/abs/1909.01496
-      image: /images/emnlp19_arithmetic.png
-      conference: EMNLP 2019 (oral)
-    - title: "Challanges in end-to-end neural scientific table recognition"
-      authors: Yuntian Deng, David Rosenberg, Gideon Mann
-      conference: ICDAR 2019
-      pdf : /papers/Deng2019ICDAR.pdf
-      code: 
-      image: /images/ICDAR19_table.png
-    - title: "Latent Alignment and Variational Attention"
-      authors: Yuntian Deng*, Yoon Kim*, Justin Chiu, Demi Guo, Alexander M. Rush
-      conference: NIPS 2018
-      pdf : https://papers.nips.cc/paper/8179-latent-alignment-and-variational-attention.pdf
-      code: https://github.com/harvardnlp/var-attn
-      image: /images/VariationalAttention.png
-    - title: "Bottom-Up Abstractive Summarization"
-      authors: Sebastian Gehrmann, Yuntian Deng, Alexander Rush
-      conference: EMNLP 2018
-      pdf : https://arxiv.org/abs/1808.10792
-      image: /images/bottomup.png
-    - title: "Image-to-Markup Generation with Coarse-to-Fine Attention"
-      authors: Yuntian Deng, Anssi Kanervisto, Jeffrey Ling, and Alexander M. Rush
-      conference: ICML 2017
-      pdf : http://lstm.seas.harvard.edu/latex/
-      code : http://lstm.seas.harvard.edu/latex/
-      image: https://camo.githubusercontent.com/5a6350632dd43b69fff7f41928f27b8c8eb9a7d9/687474703a2f2f6c73746d2e736561732e686172766172642e6564752f6c617465782f6d61746865782e706e67
-      slides: /slides/icml17.pdf
-    - title: "OpenNMT: Open-Source Toolkit for Neural Machine Translation"
-      authors: Guillaume Klein, Yoon Kim, Yuntian Deng, Jean Senellart, Alexander M. Rush
-      conference: ACL Demo 2017 (Best Demo Runner-up)
-      pdf : https://arxiv.org/abs/1701.02810
-      image: /images/overview.png
-      slides:
-    - title: "Learning Latent Space Models with Angular Constraints"
-      authors: Pengtao Xie, Yuntian Deng, Yi Zhou, Abhimanu Kumar, Yaoliang Yu, James Zou, Eric P Xing
-      conference: ICML 2017
-      pdf : http://proceedings.mlr.press/v70/xie17a/xie17a.pdf
-      code : 
-      image: 
-      slides: 
-    - title: "Neural Machine Translation with Recurrent Attention Modeling"
-      authors: Zichao Yang, Zhiting Hu, Yuntian Deng, Chris Dyer, Alex Smola
-      conference: EACL 2017
-      pdf : https://www.aclweb.org/anthology/E17-2061.pdf
-      code :
-      image: 
-      slides: /slides/icml17.pdf
-    - title: "Dropout with expectation-linear regularization"
-      authors: Xuezhe Ma, Yingkai Gao, Zhiting Hu, Yaoliang Yu, Yuntian Deng, Eduard Hovy
-      conference: ICLR 2017
-      pdf : https://openreview.net/pdf?id=rkGabzZgl
-      code : 
-      image: 
-      slides: 
-    - title: "Learning Concept Taxonomies from Multi-modal Data"
-      authors: Hao Zhang, Zhiting Hu, Yuntian Deng, Mrinmaya Sachan, Zhicheng Yan, Eric P. Xing
-      conference: ACL 2016
-      pdf : https://www.aclweb.org/anthology/P16-1169.pdf
-      code :
-      image:
-      slides:
-    - title: "Diversifying Restricted Boltzmann Machine for Document Modeling"
-      authors: Pengtao Xie, Yuntian Deng, Eric P. Xing
-      conference: KDD 2015
-      pdf : https://dl.acm.org/doi/10.1145/2783258.2783264
-      code : 
-      image: 
-      slides: 
-    - title: "Entity Hierarchy Embedding"
-      authors: Zhiting Hu, Poyao Huang, \textbf{Yuntian Deng}, Yingkai Gao, Eric P. Xing
-      conference: ACL 2015
-      pdf : https://aclanthology.org/P15-1125.pdf
-      code : 
-      image: /images/acl15_entity.png
-      slides: 
+      conference: Inorg. Chem. Front. 2014, 1, 503-509
+ 
