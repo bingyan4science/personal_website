@@ -38,8 +38,7 @@ papers:
       conference: J. Am. Chem. Soc. 2018, 140, 2397-2400
     - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
       authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
-      conference: Joule 2017, 1, 600-612.
-      Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
+      conference: Joule 2017, 1, 600-612. <br/>Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
       pdf : https://doi.org/10.1016/j.joule.2017.08.020
       image: /images/Joule2017.jpg
     - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
