@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: bingyan.me
-email: bingyan@mit.edu
+title: yanbing.me
+email: bing.yan@nyu.edu
 description:  # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bingyan.me/" # the base hostname & protocol for your site
-twitter_username: bing__yan
+url: "http://yanbing.me/" # the base hostname & protocol for your site
+twitter_username: bing4chem
 github_username: BYan6667
 
 # Build settings
