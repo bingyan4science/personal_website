@@ -138,8 +138,8 @@ pre code {
 }
 
 .footer-col-2 {
-    width: -webkit-calc(10% - (#{$spacing-unit} / 2));
-    width:         calc(10% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit}));
+    width:         calc(20% - (#{$spacing-unit}));
 }
 
 .footer-col-3 {
