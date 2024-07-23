@@ -2,7 +2,7 @@ notable:
     - title: "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency"
       authors: Bing Yan, Kyunghyun Cho
       pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
-      image:
+      image: /images/toc.png
       conference: ChemSusChem. 2022, 15, e202102317
     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
