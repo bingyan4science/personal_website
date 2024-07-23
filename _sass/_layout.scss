@@ -129,7 +129,7 @@ pre code {
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-left: $spacing-unit / 1.5;
 }
 
 .footer-col-1 {
@@ -143,8 +143,8 @@ pre code {
 }
 
 .footer-col-3 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
