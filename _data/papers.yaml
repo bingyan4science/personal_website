@@ -26,6 +26,16 @@ notable:
       conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
       image: /images/anie2017.png
 papers:
+    - title: "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency"
+      authors: Bing Yan, Kyunghyun Cho
+      pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
+      image: /images/toc.png
+      conference: Digital Discovery. 2024, Advance Article
+    - title: "Structured Chemistry Reasoning with Large Language Models"
+      authors: Siru Ouyang, Zhuosheng Zhang, Bing Yan, Xuan Liu, Yejin Choi, Jiawei Han, Lianhui Qin
+      pdf: arxiv.org/abs/2311.09656
+      image: 
+      conference: ICML 2024
     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cssc.202102317
