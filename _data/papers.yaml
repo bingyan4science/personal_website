@@ -34,7 +34,7 @@ papers:
     - title: "Structured Chemistry Reasoning with Large Language Models"
       authors: Siru Ouyang, Zhuosheng Zhang, Bing Yan, Xuan Liu, Yejin Choi, Jiawei Han, Lianhui Qin
       pdf: arxiv.org/abs/2311.09656
-      image: 
+      image: /images/structchem.jpeg
       conference: ICML 2024
     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
