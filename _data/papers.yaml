@@ -1,4 +1,8 @@
 notable: 
+    - title: "Inconsistency of LLMs in Molecular Representations"
+      authors: Bing Yan, Angelica Chen, Kyunghyun Cho
+      pdf: https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00176e
+      image: /images/consistency.png
     - title: "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency"
       authors: Bing Yan, Kyunghyun Cho
       pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
@@ -14,18 +18,26 @@ notable:
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
       pdf : https://doi.org/10.1021/jacs.9b03327
       image: /images/JACS2019.gif
-    - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
-      authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
-      conference: Joule 2017, 1, 600-612. <br/>Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
-      pdf : https://doi.org/10.1016/j.joule.2017.08.020
+    #- title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
+    #  authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
+    #  conference: Joule 2017, 1, 600-612. <br/>Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
+    #  pdf : https://doi.org/10.1016/j.joule.2017.08.020
       #code: https://github.com/harvardnlp/var-attn
-      image: /images/Joule2017.jpg
-    - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
-      authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
-      pdf: https://doi.org/10.1002/anie.201702578
-      conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
-      image: /images/anie2017.png
+    #  image: /images/Joule2017.jpg
+    #- title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
+    #  authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
+    #  pdf: https://doi.org/10.1002/anie.201702578
+    #  conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
+    # image: /images/anie2017.png
 papers:
+    - title: "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching"
+      authors: Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Daniel S. Levine, Brandon M Wood, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen
+      pdf: https://openreview.net/pdf?id=6Eg1OrHmg2
+      image: /images/AS_progressio.png
+    - title: "Inconsistency of LLMs in Molecular Representations"
+      authors: Bing Yan, Angelica Chen, Kyunghyun Cho
+      pdf: https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00176e
+      image: /images/consistency.png
     - title: "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency"
       authors: Bing Yan, Kyunghyun Cho
       pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
