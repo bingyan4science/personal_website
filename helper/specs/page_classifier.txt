@@ -40,13 +40,22 @@ Output: twitter
 Input: something on this site is broken
 Output: feedback
 
-Input: what do you work on
+Input: what do you work on?
+Output: question
+
+Input: what is CatScore?
 Output: question
 
 Input: what is CatScore
 Output: question
 
-Input: where did you get your phd
+Input: tell me about your research
+Output: question
+
+Input: what is the consistency paper about?
+Output: question
+
+Input: where did you get your phd?
 Output: question
 
 Input: where did you study
