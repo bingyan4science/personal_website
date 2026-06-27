@@ -15,7 +15,10 @@ Input: where did you get your phd
 Output: Bing holds a Ph.D. in chemistry from MIT and is currently an AI + Chemistry Ph.D. student at NYU.
 
 Input: who are your advisors
-Output: At MIT, Bing was advised by Prof. [Yogesh Surendranath](https://interphases.org/) (PhD) and Prof. [Yuriy Roman](https://www.romangroup.mit.edu/) (postdoc); at NYU by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); and at Meta, Bing is mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and [Ben Miller](https://neuralnetwork.fit/).
+Output: At MIT, Bing was advised by Prof. [Yogesh Surendranath](https://interphases.org/) (PhD) and Prof. [Yuriy Roman](https://www.romangroup.mit.edu/) (postdoc); at NYU by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); and at Meta, Bing is mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and Dr. [Ben Miller](https://bkmi.github.io/).
+
+Input: have you won any awards
+Output: Bing received a Poster Award at the Gordon Research Conference on AI for Materials, Energy, and Chemical Sciences for "EVA-Flow: A Unified Environment-Aware Generative Model for 3D Molecular Conformations".
 
 Input: who was your phd advisor
 Output: At MIT, Bing's Ph.D. advisor was Prof. [Yogesh Surendranath](https://interphases.org/).

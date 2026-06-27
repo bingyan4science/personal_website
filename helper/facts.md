@@ -11,8 +11,11 @@
   [Yogesh Surendranath](https://interphases.org/) during the PhD and then by Prof.
   [Yuriy Roman](https://www.romangroup.mit.edu/) during a postdoc; at NYU, Bing is
   advised by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); at Meta, Bing is
-  mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and
-  [Ben Miller](https://neuralnetwork.fit/).
+  mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and Dr.
+  [Ben Miller](https://bkmi.github.io/).
+- Bing received a Poster Award at the Gordon Research Conference on AI for
+  Materials, Energy, and Chemical Sciences for the poster "EVA-Flow: A Unified
+  Environment-Aware Generative Model for 3D Molecular Conformations".
 - Bing can be reached by email at bing.yan@nyu.edu.
 
 ## Selected publications

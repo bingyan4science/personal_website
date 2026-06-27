@@ -76,6 +76,12 @@ Output: question
 Input: who do you work with at Meta?
 Output: question
 
+Input: did you win any awards?
+Output: question
+
+Input: have you received any awards?
+Output: question
+
 Input: where did you study
 Output: question
 
