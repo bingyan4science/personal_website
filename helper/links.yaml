@@ -1,0 +1,52 @@
+# Routable links for bingyan.me. Each key is a label the page_classifier may emit;
+# the server maps it to a link result for the widget. `purpose` is fed into the
+# classifier spec; `label`/`description` show in the widget. `kind: feedback`
+# opens the feedback form instead of navigating.
+
+cv:
+  url: "https://bingyan.me/cv/CV_Bing_YAN_feb26.pdf"
+  name: "CV"
+  label: "Curriculum Vitae (PDF)"
+  description: "Bing Yan's CV"
+  purpose: "The visitor wants Bing Yan's CV, resume, or curriculum vitae."
+
+papers:
+  url: "https://bingyan.me/papers/"
+  name: "Publications"
+  label: "Publications"
+  description: "Bing Yan's full list of papers"
+  purpose: "The visitor wants to browse Bing Yan's papers, publications, or research output on this site."
+
+scholar:
+  url: "https://scholar.google.com/citations?hl=en&user=337w9-V_WxIC&view_op=list_works&sortby=pubdate"
+  name: "Google Scholar"
+  label: "Google Scholar"
+  description: "Bing Yan on Google Scholar"
+  purpose: "The visitor specifically wants Bing Yan's Google Scholar profile or citation metrics."
+
+github:
+  url: "https://github.com/bingyan4science"
+  name: "GitHub"
+  label: "GitHub"
+  description: "github.com/bingyan4science"
+  purpose: "The visitor wants Bing Yan's code or GitHub profile."
+
+contact:
+  url: "mailto:bing.yan@nyu.edu"
+  name: "email"
+  label: "Email Bing"
+  description: "bing.yan@nyu.edu"
+  purpose: "The visitor wants to contact, email, or reach Bing Yan."
+
+twitter:
+  url: "https://x.com/bingyan4science"
+  name: "X / Twitter"
+  label: "X (Twitter)"
+  description: "@bingyan4science"
+  purpose: "The visitor wants Bing Yan's X (formerly Twitter) profile or social media."
+
+feedback:
+  kind: feedback
+  label: "Send feedback"
+  description: "Leave an anonymous message"
+  purpose: "The visitor wants to leave feedback, a suggestion, or report a problem with the site."

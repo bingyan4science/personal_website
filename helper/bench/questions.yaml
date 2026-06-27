@@ -1,0 +1,17 @@
+# Tiny open-ended benchmark for the bingyan.me pack. `expect_answerable: false`
+# entries must be declined ("I don't have that information.").
+
+- query: "what do you work on"
+  rubric_points:
+    - {text: "Mentions AI + Chemistry, molecule generation/evaluation, 3D molecular conformations, LLMs for chemistry, or environment-aware molecule design", required: true}
+
+- query: "where did you get your phd"
+  rubric_points:
+    - {text: "Says MIT (chemistry); may also mention NYU as current PhD", required: true}
+
+- query: "what is CatScore"
+  rubric_points:
+    - {text: "Describes CatScore as a learning-based metric for asymmetric catalyst design", required: true}
+
+- query: "what is your favorite color"
+  expect_answerable: false
