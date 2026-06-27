@@ -14,6 +14,12 @@ Output: Bing's research focuses on AI + Chemistry, automating molecule generatio
 Input: where did you get your phd
 Output: Bing holds a Ph.D. in chemistry from MIT and is currently an AI + Chemistry Ph.D. student at NYU.
 
+Input: who are your advisors
+Output: At MIT, Bing was advised by Prof. [Yogesh Surendranath](https://interphases.org/) (PhD) and Prof. [Yuriy Roman](https://www.romangroup.mit.edu/) (postdoc); at NYU by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); and at Meta, Bing is mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and [Ben Miller](https://neuralnetwork.fit/).
+
+Input: who was your phd advisor
+Output: At MIT, Bing's Ph.D. advisor was Prof. [Yogesh Surendranath](https://interphases.org/).
+
 Input: what is CatScore
 Output: CatScore is a learning-based metric for evaluating asymmetric catalyst design at high efficiency, published by Bing Yan and Kyunghyun Cho in Digital Discovery (2024).
 

@@ -58,6 +58,24 @@ Output: question
 Input: where did you get your phd?
 Output: question
 
+Input: who are your advisors?
+Output: question
+
+Input: who was your phd advisor?
+Output: question
+
+Input: who mentors you at Meta?
+Output: question
+
+Input: who mentors you
+Output: question
+
+Input: who are your mentors at Meta?
+Output: question
+
+Input: who do you work with at Meta?
+Output: question
+
 Input: where did you study
 Output: question
 

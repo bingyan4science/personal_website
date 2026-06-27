@@ -16,7 +16,7 @@ validator: validator
 # Per-node-role generation budgets.
 max_tokens:
   classifier: 8
-  answerer: 200
+  answerer: 320
   validator: 4
 
 # Spec + input + output share this context window (a PAW constraint).

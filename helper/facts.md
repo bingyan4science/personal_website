@@ -7,6 +7,12 @@
 - Bing's current research areas are: generative modeling for 3D molecular
   conformations; large language models (LLMs) for chemistry predictions; and
   environment-aware molecule design.
+- Bing's advisors and mentors: at MIT, Bing was advised by Prof.
+  [Yogesh Surendranath](https://interphases.org/) during the PhD and then by Prof.
+  [Yuriy Roman](https://www.romangroup.mit.edu/) during a postdoc; at NYU, Bing is
+  advised by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); at Meta, Bing is
+  mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and
+  [Ben Miller](https://neuralnetwork.fit/).
 - Bing can be reached by email at bing.yan@nyu.edu.
 
 ## Selected publications
