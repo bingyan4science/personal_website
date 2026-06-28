@@ -56,11 +56,12 @@ $on-laptop:        900px;
 // Larger, bolder titles for the Selected Papers / Publications lists, and a
 // readable size for the paper authors/venue text in those tables.
 .paper {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 1.4;
 }
 
 .page-content table td {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.5;
 }
