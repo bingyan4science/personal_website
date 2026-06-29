@@ -1,0 +1,20 @@
+# Home-page News. Newest first. `html` may contain links/markup.
+- date: "Feb 6, 2026"
+  html: >-
+    Received a <strong>Poster Award</strong> at the Gordon Research Conference on
+    AI for Materials, Energy, and Chemical Sciences for
+    <em>EVA-Flow: A Unified Environment-Aware Generative Model for 3D Molecular Conformations</em>.
+
+- date: "Aug 8, 2025"
+  html: >-
+    Our <a href="https://pubs.rsc.org/en/content/articlelanding/2025/dd/d5dd00176e">Consistency paper</a>
+    is out in <em>Digital Discovery</em>. We evaluate how consistently LLMs answer when the same molecule
+    is given as a SMILES string versus an IUPAC name, and find low consistency even after mapped training
+    and KL regularization, suggesting that LLMs may capture surface-level patterns rather than underlying chemistry.
+
+- date: "Jul 26, 2024"
+  html: >-
+    Our <a href="https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A">CatScore paper</a>
+    is out in <em>Digital Discovery</em>. We introduce CatScore, a learning-based metric for evaluating
+    asymmetric catalysis in organic chemistry that enables efficient, effective assessment of diverse
+    catalyst-design models at both the instance and system levels.

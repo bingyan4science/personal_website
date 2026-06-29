@@ -4,38 +4,30 @@ title: Publications
 permalink: /papers/
 weight: 4
 show: 1
+description: Publications by Bing Yan in AI + Chemistry, machine learning, and electrochemistry.
 ---
 
-<h3>Papers</h3>
+<section class="section">
+  <h2 class="section-title">Publications</h2>
+  <p class="prose">
+    My complete list of papers is available on
+    <a href="https://scholar.google.com/citations?user=337w9-V_WxIC&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+  </p>
 
-
-
-<p>
-  
-  
-My complete list of papers is available on <a href="https://scholar.google.com/citations?user=337w9-V_WxIC&hl=en">Google Scholar</a>.
-</p>
-<table>
-{% for paper in site.data.papers.papers %}
-
-
-  <tr><td style="padding:10px">
+  <ul class="pub-list">
+    {% for paper in site.data.papers.papers %}
+    <li class="pub">
       {% if paper.image %}
-      <a href="{{paper.pdf}}"><img width="200px" style="min-width:200px" src="{{paper.image}}"></a>
-      {% else %}
-      <a href="{{paper.pdf}}"><img height="150px" style="min-width:300px" src="https://avatar.tobi.sh/{{paper.title}}"></a>
-
+      <a class="pub-thumb" href="{{ paper.pdf }}" target="_blank" rel="noopener">
+        <img src="{{ paper.image | relative_url }}" alt="Figure from “{{ paper.title }}”" loading="lazy">
+      </a>
       {% endif %}
-</td><td style="padding:10px">
-<a class="paper" href="{{paper.pdf}}">
-{{paper.title}}
-</a><br>
-{{paper.authors}}.<br>
-{{paper.conference}} <br>
-
-<br>
-
-</td></tr>
-
-{% endfor %}
-</table>
+      <div class="pub-body">
+        <a class="pub-title" href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+        <p class="pub-authors">{{ paper.authors | replace: "Bing Yan", "<strong>Bing Yan</strong>" }}</p>
+        {% if paper.conference %}<p class="pub-venue">{{ paper.conference }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
