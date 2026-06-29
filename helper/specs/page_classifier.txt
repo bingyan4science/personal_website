@@ -82,6 +82,27 @@ Output: question
 Input: have you received any awards?
 Output: question
 
+Input: what awards have you won?
+Output: question
+
+Input: what honors have you received?
+Output: question
+
+Input: where did you go for undergrad?
+Output: question
+
+Input: where did you do your undergraduate degree?
+Output: question
+
+Input: where did you do your postdoc?
+Output: question
+
+Input: what do you teach?
+Output: question
+
+Input: what conferences do you review for?
+Output: question
+
 Input: where did you study
 Output: question
 

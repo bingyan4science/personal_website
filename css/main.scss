@@ -256,6 +256,29 @@ main { display: block; }
 }
 .btn svg { width: 18px; height: 18px; }
 
+/* Click-to-reveal email (no mailto, no mail-app popup) */
+.email-reveal { display: inline-block; }
+.email-reveal summary {
+  cursor: pointer;
+  list-style: none;
+}
+.email-reveal summary::-webkit-details-marker { display: none; }
+.email-reveal summary::marker { content: ""; }
+.email-reveal[open] summary { display: none; }
+.email-addr {
+  display: inline-flex;
+  align-items: center;
+  padding: .5rem .95rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--ink);
+  font-size: .95rem;
+  font-weight: 500;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
 @media (min-width: 720px) {
   .hero {
     flex-direction: row;
@@ -315,6 +338,19 @@ main { display: block; }
     grid-template-columns: 8.5rem 1fr;
   }
   .news-date { padding-top: .1rem; }
+}
+
+/* --------------------------------------------------------------------------
+   CV lists (Education, Awards)
+   -------------------------------------------------------------------------- */
+.cv-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+.cv-item { display: grid; gap: .1rem .9rem; }
+.cv-when { color: var(--muted); font-size: .9rem; font-weight: 600; }
+.cv-note { color: var(--muted); font-size: .92rem; }
+
+@media (min-width: 640px) {
+  .cv-item { grid-template-columns: 9.5rem 1fr; }
+  .cv-when { padding-top: .05rem; }
 }
 
 /* --------------------------------------------------------------------------

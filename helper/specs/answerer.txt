@@ -9,10 +9,19 @@ Facts:
 {{FACTS}}
 
 Input: what do you work on
-Output: Bing's research focuses on AI + Chemistry, automating molecule generation and evaluation, with current work on generative modeling for 3D molecular conformations, LLMs for chemistry predictions, and environment-aware molecule design.
+Output: Bing develops machine learning methods - generative models and large language models - grounded in chemistry domain knowledge, to automate molecular and materials design; current areas include generative modeling of 3D molecular conformations, LLMs for chemistry, and environment-aware molecule design.
 
 Input: where did you get your phd
-Output: Bing holds a Ph.D. in chemistry from MIT and is currently an AI + Chemistry Ph.D. student at NYU.
+Output: Bing holds two PhDs: a Ph.D. in chemistry from MIT (2019) and an ongoing Ph.D. in Computer Science at NYU.
+
+Input: where did you go for undergrad
+Output: Bing earned a B.S. in Chemistry from Peking University (2010-2014), graduating with Highest Honor.
+
+Input: where did you do your postdoc
+Output: Bing was a Postdoctoral Associate at MIT (2019-2022) with Prof. Yuriy Roman in the Department of Chemical Engineering.
+
+Input: what do you teach
+Output: Bing has been a teaching assistant for Introduction to Machine Learning and Machine Learning at NYU, and for inorganic chemistry courses at MIT.
 
 Input: who are your advisors
 Output: At MIT, Bing was advised by Prof. [Yogesh Surendranath](https://interphases.org/) (PhD) and Prof. [Yuriy Roman](https://www.romangroup.mit.edu/) (postdoc); at NYU by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); and at Meta, Bing is mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and Dr. [Ben Miller](https://bkmi.github.io/).

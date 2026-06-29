@@ -3,7 +3,7 @@ layout: page
 title: Main
 weight: 1.5
 show: 1
-description: Bing Yan is a Visiting Researcher at Meta FAIR and an AI + Chemistry Ph.D. student at NYU (Ph.D. in chemistry from MIT), researching automated molecule generation and evaluation.
+description: Bing Yan works on AI for chemistry - generative models and LLMs for molecular and materials design. Ph.D. student in Computer Science at NYU; Ph.D. in chemistry from MIT; Visiting Researcher at Meta FAIR.
 ---
 
 <section class="hero">
@@ -12,7 +12,7 @@ description: Bing Yan is a Visiting Researcher at Meta FAIR and an AI + Chemistr
     <h1 class="name">Bing Yan</h1>
     <p class="affil">
       <strong>Visiting Researcher</strong>, Meta FAIR<br>
-      <strong>AI + Chemistry Ph.D. student</strong>, NYU<br>
+      <strong>Ph.D. candidate in Computer Science</strong>, NYU<br>
       <strong>Ph.D. in Chemistry</strong>, MIT
     </p>
     <div class="quicklinks">
@@ -20,7 +20,10 @@ description: Bing Yan is a Visiting Researcher at Meta FAIR and an AI + Chemistr
       <a class="btn" href="https://scholar.google.com/citations?hl=en&user=337w9-V_WxIC&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a>
       <a class="btn" href="https://github.com/bingyan4science" target="_blank" rel="noopener">GitHub</a>
       <a class="btn" href="https://x.com/bingyan4science" target="_blank" rel="noopener">X</a>
-      <a class="btn" href="mailto:{{ site.email }}">Email</a>
+      <details class="email-reveal">
+        <summary class="btn">Email</summary>
+        <span class="email-addr">bing.yan@nyu.edu</span>
+      </details>
     </div>
   </div>
 </section>
@@ -28,8 +31,11 @@ description: Bing Yan is a Visiting Researcher at Meta FAIR and an AI + Chemistr
 <section class="section prose">
   <h2 class="section-title">About</h2>
   <p>
-    My <a href="{{ "/papers/" | relative_url }}">research</a> focuses on AI + Chemistry, with the goal of
-    automating molecule generation and evaluation.
+    I develop machine learning methods &mdash; generative models and large language models &mdash; grounded in
+    deep chemistry domain knowledge, to automate molecular and materials design. With a Ph.D. in chemistry from
+    MIT (2019) and an ongoing Ph.D. in computer science at NYU, my work spans generative modeling of 3D molecular
+    conformations, foundation models for chemical reasoning, and environment-aware molecule design &mdash; toward
+    AI systems that accelerate discovery in chemistry and materials.
   </p>
   <p>
     At MIT, I was advised by Prof. <a href="https://interphases.org/" target="_blank" rel="noopener">Yogesh Surendranath</a>
@@ -41,11 +47,38 @@ description: Bing Yan is a Visiting Researcher at Meta FAIR and an AI + Chemistr
 </section>
 
 <section class="section">
-  <h2 class="section-title">Research Areas</h2>
+  <h2 class="section-title">Research Interests</h2>
   <ul class="areas">
-    <li>Generative modeling of 3D molecular conformations.</li>
-    <li>Large language models (LLMs) for chemistry prediction.</li>
-    <li>Environment-aware molecule design.</li>
+    <li>Generative modeling for molecules and materials: diffusion and flow-matching samplers (adjoint matching/sampling) for 3D molecular conformation generation.</li>
+    <li>Large language models for chemistry: chemical reasoning, molecular representations, and prediction &mdash; and their limitations.</li>
+    <li>Environment-aware molecular design.</li>
+    <li>Bridging machine learning with experimental chemistry, drawing on a background in electrocatalysis.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Education</h2>
+  <ul class="cv-list">
+    {% for ed in site.data.education %}
+    <li class="cv-item">
+      <span class="cv-when">{{ ed.years }}</span>
+      <span class="cv-what">
+        <strong>{{ ed.degree }}</strong>, {{ ed.school }}{% if ed.note %}<br><span class="cv-note">{{ ed.note }}</span>{% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Awards &amp; Honors</h2>
+  <ul class="cv-list">
+    {% for a in site.data.awards %}
+    <li class="cv-item">
+      <span class="cv-when">{{ a.year }}</span>
+      <span class="cv-what">{{ a.name }}</span>
+    </li>
+    {% endfor %}
   </ul>
 </section>
 
