@@ -3,15 +3,18 @@
 - Bing Yan holds two PhDs: a completed Ph.D. in chemistry from MIT (2019) and an
   ongoing Ph.D. in Computer Science at NYU (currently in the 4th year, advised by
   Prof. Kyunghyun Cho). Bing is also a Visiting Researcher at Meta FAIR.
-- Bing's research develops machine learning methods - generative models and large
-  language models - grounded in deep chemistry domain knowledge, to automate
-  molecular and materials design, toward AI systems that accelerate scientific
-  discovery in chemistry and materials.
-- Bing's current research areas are: generative modeling of 3D molecular
-  conformations (diffusion and flow-matching samplers, including adjoint
-  matching/sampling); large language models (LLMs) for chemistry reasoning and
-  prediction; and environment-aware molecule design. Bing also draws on an
-  experimental background in electrocatalysis.
+- Bing's research integrates specialized AI models with experiments to understand
+  and control the mechanisms of chemical and electrochemical reactions: building
+  models that distinguish competing mechanistic hypotheses and design the
+  experiments that most sharply resolve them, closing the loop between experiment
+  and computation to predict and ultimately control reaction selectivity.
+- Bing's research interests include: mechanism discrimination (integrating AI
+  models with experimental and spectroscopic data to tell competing reaction
+  mechanisms apart); experiment design in the loop (choosing the next measurements
+  that most sharply resolve mechanistic and kinetic uncertainty); understanding and
+  controlling selectivity in chemical and electrochemical reactions; and machine
+  learning for chemistry, including generative models (diffusion and flow matching)
+  and large language models for reasoning over molecules and reactions.
 - For undergraduate, Bing studied at Peking University, earning a B.S. in
   Chemistry (2010-2014), advised by Prof. Song Gao, and graduated with Highest
   Honor.

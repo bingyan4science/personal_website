@@ -9,7 +9,7 @@ Facts:
 {{FACTS}}
 
 Input: what do you work on
-Output: Bing develops machine learning methods - generative models and large language models - grounded in chemistry domain knowledge, to automate molecular and materials design; current areas include generative modeling of 3D molecular conformations, LLMs for chemistry, and environment-aware molecule design.
+Output: Bing integrates specialized AI models with experiments to understand and control the mechanisms of chemical and electrochemical reactions - distinguishing competing mechanistic hypotheses and designing the experiments that most sharply resolve them, to predict and ultimately control reaction selectivity.
 
 Input: where did you get your phd
 Output: Bing holds two PhDs: a Ph.D. in chemistry from MIT (2019) and an ongoing Ph.D. in Computer Science at NYU.
