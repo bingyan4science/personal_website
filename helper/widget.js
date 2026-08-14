@@ -426,8 +426,6 @@
       input.setAttribute('aria-label', ASK_LABEL);
       launch.setAttribute('aria-label', ASK_LABEL);
       dialog.setAttribute('aria-label', ASK_LABEL);
-      var launchLabel = launch.querySelector('.paw-helper__launch-label');
-      if (launchLabel) launchLabel.textContent = ASK_LABEL;
     }
 
     launch.addEventListener('click', openDialog);
