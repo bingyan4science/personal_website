@@ -31,4 +31,10 @@ domains:
     classifier: page_classifier   # link label vs "question"
     links: links.yaml
     answerer: answerer
-    facts_mode: baked              # facts compiled into the program (see facts.md)
+    facts_mode: runtime            # inject facts.md so content updates do not require recompiling
+    context: site_facts
+    classifier_redundancy:
+      - to: askchem
+        from: [question, papers, scholar]
+        any_keywords: [askchem]
+        unless_keywords: ["paper about", accepted, emnlp, reasonflow, claim, "147", "2.4"]

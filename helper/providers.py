@@ -1,18 +1,12 @@
-"""Example content pack providers.
+"""Runtime facts for Bing Yan's website helper."""
 
-This minimal pack uses a baked answerer (facts compiled in via {{FACTS}}), so it
-registers no runtime providers. To inject volatile facts at inference time (course
-deadlines, a roster, retrieved documents - the RAG seam), set a domain's
-`facts_mode: runtime` and `context: <key>` in config.yaml, then register that key:
+from pathlib import Path
 
-    CONTEXT_PROVIDERS = {"news": lambda query: latest_news_text()}
-    CONTEXT_LABELS = {"news": "News"}
 
-A resource router (rule-based candidate list + a fuzzy PAW selector) registers:
+def site_facts(_query: str) -> str:
+    return Path(__file__).with_name("facts.md").read_text(encoding="utf-8")
 
-    RESOURCE_PROVIDERS = {"docs": (render_candidates, select_from_selector_output)}
-"""
 
-CONTEXT_PROVIDERS = {}
-CONTEXT_LABELS = {}
+CONTEXT_PROVIDERS = {"site_facts": site_facts}
+CONTEXT_LABELS = {"site_facts": "Facts"}
 RESOURCE_PROVIDERS = {}
