@@ -3,17 +3,17 @@
   html: >-
     <a href="https://huggingface.co/papers/2607.28618"><em>AskChem</em></a>
     was accepted to EMNLP 2026 System Demonstrations. AskChem turns 147K
-    chemistry papers into 2.4M searchable, provenance-carrying claims. Its
-    <a href="https://x.com/bingyan4science/status/2085108389890195565">launch thread</a>
-    has reached 11K+ views; explore the
+    chemistry papers into 2.4M searchable, source-grounded claims. In the first week of its
+    <a href="https://x.com/bingyan4science/status/2085108389890195565">launch</a>
+    AskChem has received traffic from 2.9K unique IPs and served 24K HTTP requests.
+    Explore the
     <a href="https://askchem.org/">live system</a> or watch the
     <a href="https://www.youtube.com/watch?v=SOjueOlPS-8">video demo</a>.
 
 - date: "Aug 2026"
   html: >-
     <a href="/reasonflow.pdf"><em>ReasonFlow</em></a> was accepted to Findings
-    of EMNLP 2026. ReasonFlow brings step-by-step reasoning to flow-matching
-    language models by shaping generation trajectories with intermediate
+    of EMNLP 2026. ReasonFlow shapes the flow-matching trajectories with intermediate
     chain-of-thought anchor states.
 
 - date: "Feb 6, 2026"
