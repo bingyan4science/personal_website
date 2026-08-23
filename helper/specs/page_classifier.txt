@@ -25,6 +25,12 @@ Output: papers
 Input: list of your publications
 Output: papers
 
+Input: open the AskChem paper
+Output: askchem
+
+Input: where can I read ReasonFlow
+Output: reasonflow
+
 Input: are you on google scholar
 Output: scholar
 
@@ -47,6 +53,18 @@ Input: what is CatScore?
 Output: question
 
 Input: what is CatScore
+Output: question
+
+Input: what is AskChem?
+Output: question
+
+Input: what is the AskChem paper about?
+Output: question
+
+Input: what is ReasonFlow?
+Output: question
+
+Input: what is the ReasonFlow paper about?
 Output: question
 
 Input: tell me about your research

@@ -1,4 +1,14 @@
 # Home-page News. Newest first. `html` may contain links/markup.
+- date: "Aug 2026"
+  html: >-
+    Two papers accepted at EMNLP 2026:
+    <a href="https://huggingface.co/papers/2607.28618"><em>AskChem</em></a>
+    to System Demonstrations and
+    <a href="/reasonflow.pdf"><em>ReasonFlow</em></a>
+    to Findings. AskChem turns 147K chemistry papers into 2.4M searchable,
+    provenance-carrying claims; see the
+    <a href="https://x.com/bingyan4science/status/2085108389890195565?s=20">announcement thread</a>.
+
 - date: "Feb 6, 2026"
   html: >-
     Received a <strong>Poster Award</strong> at the Gordon Research Conference on

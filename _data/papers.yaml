@@ -1,4 +1,14 @@
 notable: 
+    - title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
+      authors: Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
+      pdf: https://huggingface.co/papers/2607.28618
+      image: /images/askchem.png
+      conference: EMNLP 2026 System Demonstrations
+    - title: "ReasonFlow: Flow Matching that Thinks Step by Step"
+      authors: Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho
+      pdf: /reasonflow.pdf
+      image: /images/reasonflow.png
+      conference: Findings of EMNLP 2026
     - title: "Inconsistency of LLMs in Molecular Representations"
       authors: Bing Yan, Angelica Chen, Kyunghyun Cho
       pdf: https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00176e
@@ -30,6 +40,16 @@ notable:
     #  conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
     # image: /images/anie2017.png
 papers:
+    - title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
+      authors: Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
+      pdf: https://huggingface.co/papers/2607.28618
+      image: /images/askchem.png
+      conference: EMNLP 2026 System Demonstrations
+    - title: "ReasonFlow: Flow Matching that Thinks Step by Step"
+      authors: Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho
+      pdf: /reasonflow.pdf
+      image: /images/reasonflow.png
+      conference: Findings of EMNLP 2026
     - title: "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching"
       authors: Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Daniel S. Levine, Brandon M Wood, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen
       pdf: https://openreview.net/pdf?id=6Eg1OrHmg2

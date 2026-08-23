@@ -4,7 +4,7 @@
 # opens the feedback form instead of navigating.
 
 cv:
-  url: "https://bingyan.me/cv/CV_Bing_YAN_feb26.pdf"
+  url: "https://bingyan.me/cv/CV_0823.pdf"
   name: "CV"
   label: "Curriculum Vitae (PDF)"
   description: "Bing Yan's CV"
@@ -16,6 +16,20 @@ papers:
   label: "Publications"
   description: "Bing Yan's full list of papers"
   purpose: "The visitor wants to browse Bing Yan's papers, publications, or research output on this site."
+
+askchem:
+  url: "https://huggingface.co/papers/2607.28618"
+  name: "AskChem paper"
+  label: "AskChem on Hugging Face"
+  description: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
+  purpose: "The visitor specifically wants to open, read, or download Bing Yan's AskChem paper."
+
+reasonflow:
+  url: "https://bingyan.me/reasonflow.pdf"
+  name: "ReasonFlow paper"
+  label: "ReasonFlow (PDF)"
+  description: "ReasonFlow: Flow Matching that Thinks Step by Step"
+  purpose: "The visitor specifically wants to open, read, or download Bing Yan's ReasonFlow paper."
 
 scholar:
   url: "https://scholar.google.com/citations?hl=en&user=337w9-V_WxIC&view_op=list_works&sortby=pubdate"

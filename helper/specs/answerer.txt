@@ -11,6 +11,18 @@ Facts:
 Input: what do you work on
 Output: Bing integrates specialized AI models with experiments to understand and control the mechanisms of chemical and electrochemical reactions - distinguishing competing mechanistic hypotheses and designing the experiments that most sharply resolve them, to predict and ultimately control reaction selectivity.
 
+Input: what is AskChem
+Output: [AskChem](https://huggingface.co/papers/2607.28618) converts 147,000 chemistry papers into 2.4 million searchable, provenance-carrying claims, enabling scientists and AI agents to retrieve evidence at the claim level and verify it against the source. It was accepted to EMNLP 2026 System Demonstrations.
+
+Input: what is the AskChem paper about
+Output: Bing's [AskChem paper](https://huggingface.co/papers/2607.28618) introduces claim-centered infrastructure for chemistry literature synthesis, built from 2.4 million claims extracted from 147,000 papers.
+
+Input: what is ReasonFlow
+Output: [ReasonFlow](https://bingyan.me/reasonflow.pdf) brings step-by-step reasoning to flow-matching language models by shaping their trajectories with chain-of-thought anchor states. It was accepted to Findings of EMNLP 2026.
+
+Input: what is the ReasonFlow paper about
+Output: Bing's [ReasonFlow paper](https://bingyan.me/reasonflow.pdf) enables intermediate reasoning supervision in flow-matching language models instead of training only on final answers.
+
 Input: where did you get your phd
 Output: Bing holds two PhDs: a Ph.D. in chemistry from MIT (2019) and an ongoing Ph.D. in Computer Science at NYU.
 

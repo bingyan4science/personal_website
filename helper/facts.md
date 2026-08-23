@@ -42,6 +42,18 @@
 
 ## Selected publications
 
+- "[AskChem: Claim-Centered Infrastructure for Chemistry Literature
+  Synthesis](https://huggingface.co/papers/2607.28618)" (Bing Yan, Gregory Wolfe,
+  Stefano Martiniani, Kyunghyun Cho), accepted to EMNLP 2026 System
+  Demonstrations. AskChem converts 147,000 chemistry papers into 2.4 million
+  searchable, provenance-carrying claims so scientists and AI agents can retrieve
+  evidence at the claim level and verify it against the source.
+- "[ReasonFlow: Flow Matching that Thinks Step by
+  Step](https://bingyan.me/reasonflow.pdf)" (Bing Yan, Ge Sun, Juan J. de Pablo,
+  Stefano Martiniani, Kyunghyun Cho), accepted to Findings of EMNLP 2026.
+  ReasonFlow brings step-by-step reasoning to flow-matching language models by
+  shaping their trajectories with chain-of-thought anchor states, enabling
+  intermediate reasoning supervision rather than training only on final answers.
 - "Inconsistency of LLMs in Molecular Representations" (Bing Yan, Angelica Chen,
   Kyunghyun Cho), Digital Discovery, 2025 - shows that LLMs give inconsistent
   answers across SMILES versus IUPAC name representations of the same molecule.
