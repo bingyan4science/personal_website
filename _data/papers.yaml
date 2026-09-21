@@ -1,4 +1,8 @@
 notable: 
+    - title: "EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation"
+      authors: Bing Yan, Anuroop Sriram, Zachary Ward Ulissi, Kyunghyun Cho, Ricky T. Q. Chen, Benjamin Kurt Miller
+      pdf: /papers/EVA_Flow.pdf
+      conference: Transactions on Machine Learning Research (TMLR), 2026
     - title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
       authors: Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
       pdf: https://huggingface.co/papers/2607.28618
@@ -40,6 +44,10 @@ notable:
     #  conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
     # image: /images/anie2017.png
 papers:
+    - title: "EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation"
+      authors: Bing Yan, Anuroop Sriram, Zachary Ward Ulissi, Kyunghyun Cho, Ricky T. Q. Chen, Benjamin Kurt Miller
+      pdf: /papers/EVA_Flow.pdf
+      conference: Transactions on Machine Learning Research (TMLR), 2026
     - title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
       authors: Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
       pdf: https://huggingface.co/papers/2607.28618

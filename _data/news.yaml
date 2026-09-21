@@ -1,8 +1,8 @@
 # Home-page News. Newest first. `html` may contain links/markup.
 - date: "Sep 2026"
   html: >-
-    Our paper <em>EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware
-    Molecular Conformation Generation</em> has been accepted to
+    Our paper <a href="/papers/EVA_Flow.pdf"><em>EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware
+    Molecular Conformation Generation</em></a> has been accepted to
     <strong>Transactions on Machine Learning Research (TMLR)</strong>!
 
 - date: "Sep 2026"
