@@ -1,4 +1,15 @@
 # Home-page News. Newest first. `html` may contain links/markup.
+- date: "Sep 2026"
+  html: >-
+    Our paper <em>EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware
+    Molecular Conformation Generation</em> has been accepted to
+    <strong>Transactions on Machine Learning Research (TMLR)</strong>!
+
+- date: "Sep 2026"
+  html: >-
+    I joined <strong>MatterStack AI</strong> as a consultant, working on
+    scientific agents for materials discovery.
+
 - date: "Aug 2026"
   html: >-
     <a href="https://huggingface.co/papers/2607.28618"><em>AskChem</em></a>

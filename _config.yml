@@ -9,8 +9,9 @@
 title: Bing Yan
 email: bing.yan@nyu.edu
 description: >-
-  Bing Yan is a Visiting Researcher at Meta FAIR and an AI + Chemistry Ph.D. student at NYU
-  (Ph.D. in chemistry from MIT), researching automated molecule generation and evaluation.
+  Bing Yan integrates AI with experiments to understand and control chemical reactions.
+  Ph.D. candidate in Computer Science at NYU, Ph.D. in Chemistry from MIT,
+  and Consultant at MatterStack AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bingyan.me" # the base hostname & protocol for your site
 twitter_username: bingyan4science
