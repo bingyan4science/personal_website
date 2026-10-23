@@ -48,6 +48,8 @@
   Demonstrations. AskChem converts 147,000 chemistry papers into 2.4 million
   searchable, provenance-carrying claims so scientists and AI agents can retrieve
   evidence at the claim level and verify it against the source.
+  AskChem was [featured by the NYU Center for Data Science](https://nyudatascience.medium.com/askchem-a-new-search-engine-for-chemistry-research-50d28404b692)
+  on October 23, 2026, with an [official X announcement](https://x.com/NYUDataScience/status/2113658678725186010).
 - "[ReasonFlow: Flow Matching that Thinks Step by
   Step](https://bingyan.me/reasonflow.pdf)" (Bing Yan, Ge Sun, Juan J. de Pablo,
   Stefano Martiniani, Kyunghyun Cho), accepted to Findings of EMNLP 2026.

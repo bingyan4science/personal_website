@@ -1,4 +1,12 @@
 # Home-page News. Newest first. `html` may contain links/markup.
+- date: "Oct 23, 2026"
+  html: >-
+    <a href="https://askchem.org/">AskChem</a> was featured by the
+    <strong>NYU Center for Data Science</strong> in
+    <a href="https://nyudatascience.medium.com/askchem-a-new-search-engine-for-chemistry-research-50d28404b692"><em>AskChem:
+    A New Search Engine for Chemistry Research</em></a>,
+    with an accompanying <a href="https://x.com/NYUDataScience/status/2113658678725186010">X announcement</a>.
+
 - date: "Sep 2026"
   html: >-
     Our paper <a href="/papers/EVA_Flow.pdf"><em>EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware
