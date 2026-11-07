@@ -9,7 +9,8 @@
 title: Bing Yan
 email: bing.yan@nyu.edu
 description: >-
-  Bing Yan integrates AI with experiments to understand and control chemical reactions.
+  Bing Yan connects machine learning with experimental chemistry to learn from imperfect
+  evidence and design catalysts and reaction conditions.
   Ph.D. candidate in Computer Science at NYU, Ph.D. in Chemistry from MIT,
   and Research Consultant at Matterstack.
 baseurl: "" # the subpath of your site, e.g. /blog
