@@ -347,15 +347,6 @@ main { display: block; }
   letter-spacing: .01em;
 }
 .news-body { margin: 0; }
-.news-archive { margin-top: 1.5rem; }
-.news-archive summary {
-  padding: .65rem 0;
-  color: var(--accent);
-  font-weight: 600;
-  cursor: pointer;
-}
-.news-archive summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-.news-archive[open] summary { margin-bottom: .75rem; }
 
 @media (min-width: 640px) {
   .news-item {
