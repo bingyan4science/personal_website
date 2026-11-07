@@ -9,22 +9,6 @@
     1–3 p.m. CST at the Minneapolis Convention Center, Exhibit Hall B.
     <a href="/posters/AIChE_2026.pdf">View poster (PDF)</a>.
 
-- date: "Oct 2026"
-  html: >-
-    I presented <a href="https://huggingface.co/papers/2607.28618"><em>AskChem</em></a>
-    as a poster and demonstration at <strong>EMNLP 2026</strong> in Budapest.
-    In its first week after launch, AskChem received traffic from 2.9K unique IPs
-    and served 24K HTTP requests.
-    Explore the <a href="https://askchem.org/">live system</a> or read the
-    <a href="https://x.com/bingyan4science/status/2085108389890195565">launch thread</a>.
-
-- date: "Oct 2026"
-  html: >-
-    I presented <a href="/reasonflow.pdf"><em>ReasonFlow</em></a> at
-    <strong>EMNLP 2026</strong> in Budapest, following its acceptance to Findings
-    of EMNLP. ReasonFlow guides flow-matching generation with intermediate
-    reasoning steps.
-
 - date: "Oct 23, 2026"
   html: >-
     <a href="https://askchem.org/">AskChem</a> was featured by the
