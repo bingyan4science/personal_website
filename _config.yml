@@ -11,8 +11,7 @@ email: bing.yan@nyu.edu
 description: >-
   Bing Yan connects machine learning with experimental chemistry to learn from imperfect
   evidence and design catalysts and reaction conditions.
-  Ph.D. candidate in Computer Science at NYU, Ph.D. in Chemistry from MIT,
-  and Research Consultant at Matterstack.
+  Ph.D. candidate in Computer Science at NYU and Ph.D. in Chemistry from MIT.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bingyan.me" # the base hostname & protocol for your site
 twitter_username: bingyan4science
