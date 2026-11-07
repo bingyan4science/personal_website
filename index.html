@@ -88,6 +88,7 @@ description: Bing Yan connects machine learning with experimental chemistry to l
 
 <section class="section">
   <h2 class="section-title">News</h2>
+  <div class="news-scroll" role="region" aria-label="Recent news, scroll for more updates" tabindex="0">
   <ul class="news">
     {% for item in site.data.news limit:6 %}
     <li class="news-item">
@@ -96,6 +97,7 @@ description: Bing Yan connects machine learning with experimental chemistry to l
     </li>
     {% endfor %}
   </ul>
+  </div>
   {% if site.data.news.size > 6 %}
   <details class="news-archive">
     <summary>Earlier news</summary>
