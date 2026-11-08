@@ -61,7 +61,8 @@ papers:
       image: /images/reasonflow-figure.png
       conference: Findings of EMNLP 2026
     - title: "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching"
-      authors: Bing Yan, Carles Domingo-Enrich, Anuroop Sriram, Daniel S. Levine, Brandon M Wood, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu, Guan-Horng Liu, Ricky T. Q. Chen
+      authors: Aaron J Havens<sup>*</sup>, Benjamin Kurt Miller<sup>*</sup>, Bing Yan<sup>*</sup>, Carles Domingo-Enrich, Anuroop Sriram, Daniel S. Levine, Brandon M Wood, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu<sup>*</sup>, Guan-Horng Liu<sup>*</sup>, Ricky T. Q. Chen<sup>*</sup>
+      contribution_note: "* Core contributors"
       pdf: https://openreview.net/pdf?id=6Eg1OrHmg2
       image: /images/AS_progressio.png
     - title: "Inconsistency of LLMs in Molecular Representations"

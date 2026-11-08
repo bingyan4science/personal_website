@@ -25,6 +25,7 @@ description: Publications by Bing Yan in AI + Chemistry, machine learning, and e
       <div class="pub-body">
         <a class="pub-title" href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
         <p class="pub-authors">{{ paper.authors | replace: "Bing Yan", "<strong>Bing Yan</strong>" }}</p>
+        {% if paper.contribution_note %}<p class="pub-authors">{{ paper.contribution_note }}</p>{% endif %}
         {% if paper.conference %}<p class="pub-venue">{{ paper.conference }}</p>{% endif %}
       </div>
     </li>
