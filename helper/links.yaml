@@ -18,11 +18,25 @@ papers:
   purpose: "The visitor wants to browse Bing Yan's papers, publications, or research output on this site."
 
 askchem:
-  url: "https://huggingface.co/papers/2607.28618"
+  url: "https://aclanthology.org/2026.emnlp-demos.69/"
   name: "AskChem paper"
-  label: "AskChem on Hugging Face"
+  label: "AskChem paper (ACL Anthology)"
   description: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
   purpose: "The visitor specifically wants to open, read, or download Bing Yan's AskChem paper."
+
+askchem_tool:
+  url: "https://askchem.org/"
+  name: "AskChem"
+  label: "Search the chemistry literature with AskChem"
+  description: "Find claims and trace them to source papers"
+  purpose: "The visitor wants to use or try the AskChem search tool."
+
+guides:
+  url: "https://bingyan.me/research/"
+  name: "Research guides"
+  label: "Research guides and reading lists"
+  description: "Annotated papers organized by research topic"
+  purpose: "The visitor wants Bing Yan's research guides or reading lists."
 
 reasonflow:
   url: "https://aclanthology.org/2026.findings-emnlp.2268/"

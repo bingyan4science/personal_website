@@ -22,3 +22,9 @@ orcid_url: "https://orcid.org/0000-0001-7874-725X"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+defaults:
+  - scope:
+      path: "helper/facts.md"
+    values:
+      sitemap: false

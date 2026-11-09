@@ -1,5 +1,5 @@
 # Content pack for bingyan.me - "ask about my website" helper.
-# A single "site" domain about Bing Yan (AI + Chemistry), with a baked answerer.
+# A single "site" domain about Bing Yan, with facts supplied at question time.
 # Validate it with:  paw-helper validate --content helper
 
 schema_version: 1
@@ -34,7 +34,6 @@ domains:
     facts_mode: runtime            # inject facts.md so content updates do not require recompiling
     context: site_facts
     classifier_redundancy:
-      - to: askchem
+      - to: guides
         from: [question, papers, scholar]
-        any_keywords: [askchem]
-        unless_keywords: ["paper about", accepted, emnlp, reasonflow, claim, "147", "2.4"]
+        any_keywords: ["reading list", "reading guide", "research guide"]

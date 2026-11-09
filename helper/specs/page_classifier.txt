@@ -28,6 +28,12 @@ Output: papers
 Input: open the AskChem paper
 Output: askchem
 
+Input: where can I try AskChem?
+Output: askchem_tool
+
+Input: where are your research reading guides?
+Output: guides
+
 Input: where can I read ReasonFlow
 Output: reasonflow
 

@@ -1,76 +1,38 @@
 # About Bing Yan
 
-- Bing Yan holds two PhDs: a completed Ph.D. in chemistry from MIT (2019) and an
-  ongoing Ph.D. in Computer Science at NYU (currently in the 4th year, advised by
-  Prof. Kyunghyun Cho). Bing is also a Visiting Researcher at Meta FAIR.
-- Bing's research integrates specialized AI models with experiments to understand
-  and control the mechanisms of chemical and electrochemical reactions: building
-  models that distinguish competing mechanistic hypotheses and design the
-  experiments that most sharply resolve them, closing the loop between experiment
-  and computation to predict and ultimately control reaction selectivity.
-- Bing's research interests include: mechanism discrimination (integrating AI
-  models with experimental and spectroscopic data to tell competing reaction
-  mechanisms apart); experiment design in the loop (choosing the next measurements
-  that most sharply resolve mechanistic and kinetic uncertainty); understanding and
-  controlling selectivity in chemical and electrochemical reactions; and machine
-  learning for chemistry, including generative models (diffusion and flow matching)
-  and large language models for reasoning over molecules and reactions.
-- For undergraduate, Bing studied at Peking University, earning a B.S. in
-  Chemistry (2010-2014), advised by Prof. Song Gao, and graduated with Highest
-  Honor.
-- Bing did a postdoc at MIT (2019-2022) as a Postdoctoral Associate with Prof.
-  Yuriy Roman in the Department of Chemical Engineering, on electrochemical
-  activation of C-C bonds for plastic and biomass deconstruction.
-- Selected awards and honors: Henry M. MacCracken Fellowship at NYU (2022-2027);
-  Rowland Fellowship finalist (2021); Moore Fellowship (2018); a Poster Award at
-  the Gordon Research Conference on AI for Materials, Energy, and Chemical
-  Sciences (2026); and graduating with Highest Honor from Peking University.
-- Professional service: Area Chair for the NeurIPS (2025) and ICML (2024) AI for
-  Science workshops, and a reviewer for ICLR, ICML, ACL, and COLM.
-- Teaching: Bing has been a teaching assistant for Introduction to Machine
-  Learning and Machine Learning at NYU, and for inorganic chemistry courses at MIT.
-- Bing's advisors and mentors: at MIT, Bing was advised by Prof.
-  [Yogesh Surendranath](https://interphases.org/) during the PhD and then by Prof.
-  [Yuriy Roman](https://www.romangroup.mit.edu/) during a postdoc; at NYU, Bing is
-  advised by Prof. [Kyunghyun Cho](https://www.kyunghyuncho.me/); at Meta, Bing is
-  mentored by Dr. [Ricky Chen](https://rtqichen.github.io/) and Dr.
-  [Ben Miller](https://bkmi.github.io/).
-- Bing received a Poster Award at the Gordon Research Conference on AI for
-  Materials, Energy, and Chemical Sciences for the poster "EVA-Flow: A Unified
-  Environment-Aware Generative Model for 3D Molecular Conformations".
-- Bing can be reached by email at bing.yan@nyu.edu.
+Bing Yan earned a Ph.D. in Chemistry at MIT in 2019, advised by [Yogesh Surendranath](https://interphases.org/). She is a Ph.D. candidate in Computer Science at NYU, advised by [Kyunghyun Cho](https://www.kyunghyuncho.me/). Her NYU degree is in progress, with completion expected in 2027.
 
-## Selected publications
+Bing joined Matterstack as a Research Consultant in September 2026. She works with [Stefano Martiniani](https://martinianilab.org/) on scientific agents for materials discovery. She was a Visiting Researcher at Meta FAIR from September 2024 to August 2026. [Ben Miller](https://bkmi.github.io/) and [Ricky Chen](https://rtqichen.github.io/) mentored her there.
 
-- "[AskChem: Claim-Centered Infrastructure for Chemistry Literature
-  Synthesis](https://huggingface.co/papers/2607.28618)" (Bing Yan, Gregory Wolfe,
-  Stefano Martiniani, Kyunghyun Cho), accepted to EMNLP 2026 System
-  Demonstrations. AskChem converts 147,000 chemistry papers into 2.4 million
-  searchable, provenance-carrying claims so scientists and AI agents can retrieve
-  evidence at the claim level and verify it against the source.
-  AskChem was [featured by the NYU Center for Data Science](https://nyudatascience.medium.com/askchem-a-new-search-engine-for-chemistry-research-50d28404b692)
-  on October 23, 2026, with an [official X announcement](https://x.com/NYUDataScience/status/2113658678725186010).
-- "[ReasonFlow: Flow Matching that Thinks Step by
-  Step](https://aclanthology.org/2026.findings-emnlp.2268/)" (Bing Yan, Ge Sun, Juan J. de Pablo,
-  Stefano Martiniani, Kyunghyun Cho), Findings of EMNLP 2026.
-  ReasonFlow trains a latent flow using intermediate solution steps encoded by a
-  language model. At inference a decoder reads the answer from the flow’s endpoint.
-- "Inconsistency of LLMs in Molecular Representations" (Bing Yan, Angelica Chen,
-  Kyunghyun Cho), Digital Discovery, 2025 - shows that LLMs give inconsistent
-  answers across SMILES versus IUPAC name representations of the same molecule.
-- "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency" (Bing Yan,
-  Kyunghyun Cho), Digital Discovery, 2024 - a learning-based metric for
-  evaluating asymmetric catalysis.
-- "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching" -
-  a scalable approach to diffusion-based sampling.
-- "Structured Chemistry Reasoning with Large Language Models" (Siru Ouyang et
-  al., including Bing Yan), ICML, 2024.
-- Earlier MIT chemistry work includes electrochemical activation of C-C bonds via
-  mediated HAT (ChemSusChem, 2022) and mixed electron-proton conductors (JACS,
-  2019).
+Bing earned a B.S. in Chemistry at Peking University in 2014, graduating with Highest Honor. Her undergraduate advisor was Song Gao. From 2019 to 2022 she was a Postdoctoral Associate in MIT Chemical Engineering with [Yuriy Román-Leshkov](https://www.romangroup.mit.edu/), studying electrochemical activation of carbon–carbon bonds in plastics and biomass.
 
-<!-- Editor notes (stripped at compile): keep facts factual and concise. The
-answerer declines with "I don't have that information." for anything not covered
-here - that is the anti-hallucination guard, do not weaken it. No public info on
-location, hiring, or "taking students" is stated on the site, so leave those out
-and let the answerer decline. -->
+Bing is on the faculty job market and welcomes opportunities across science, engineering, and interdisciplinary programs. Her [AIChE faculty candidate poster](https://bingyan.me/posters/AIChE_2026.pdf) describes her research plans. Her public contact email is bing.yan@nyu.edu.
+
+## Research
+
+Bing connects machine learning with experimental chemistry to understand how molecular structure and environment control reactivity. She develops models that learn from incomplete observations, distinguish competing reaction mechanisms, and guide experiments to design catalysts and reaction conditions. Her [research guides and reading lists](https://bingyan.me/research/) cover molecular conformation generation, molecular representations and chemical reasoning, chemistry literature synthesis, and catalytic mechanisms and selectivity.
+
+- [EVA-Flow](https://openreview.net/forum?id=pD4Smou3Xp) generates molecular conformations in vacuum, solution, protein binding pockets, and crystals. It was accepted in Transactions on Machine Learning Research (TMLR), 2026. An earlier EVA-Flow poster received a 2026 Gordon Research Conference poster award.
+- [AskChem](https://askchem.org/) lets scientists search individual claims from chemistry papers and trace them to source passages. The [AskChem paper](https://aclanthology.org/2026.emnlp-demos.69/) reports 2.4 million claims from 147,000 papers and appeared in EMNLP 2026 System Demonstrations. The NYU Center for Data Science [featured AskChem](https://nyudatascience.medium.com/askchem-a-new-search-engine-for-chemistry-research-50d28404b692) in October 2026.
+- [ReasonFlow](https://aclanthology.org/2026.findings-emnlp.2268/) trains a latent flow-matching model using language-model encodings of intermediate reasoning steps. A decoder reads the answer from the endpoint. It appeared in Findings of EMNLP 2026.
+- [SPARK](https://bingyan.me/research/catalysis-mechanisms/#spark) uses simulations and kinetic measurements to distinguish reaction mechanisms and select follow-up experiments. Its case studies cover cyclic voltammetry, Tafel data for hydrogen evolution, and thermal CO oxidation on platinum. The [public demo](https://huggingface.co/spaces/bing-yan/spark) runs the cyclic voltammetry model. The manuscript is in preparation.
+- [CatScore](https://doi.org/10.1039/D4DD00114A) evaluates asymmetric catalyst design by predicting selectivity. Bing and Kyunghyun Cho published it in Digital Discovery in 2024.
+- [Inconsistency of LLMs in Molecular Representations](https://doi.org/10.1039/D5DD00176E) shows that LLMs can answer inconsistently when the same molecule is written as a SMILES string or an IUPAC name. Bing wrote it with Angelica Chen and Kyunghyun Cho (Digital Discovery, 2025).
+- Bing was a core contributor to [Adjoint Sampling](https://proceedings.mlr.press/v267/havens25a.html), a diffusion method for sampling molecular configurations (ICML 2025). She also coauthored [Structured Chemistry Reasoning with Large Language Models](https://proceedings.mlr.press/v235/ouyang24a.html) (ICML 2024).
+
+## Earlier chemistry papers
+
+- [Mediated hydrogen atom transfer](https://doi.org/10.1002/cssc.202102317) enabled electrochemical activation of C–C bonds (ChemSusChem, 2022).
+- [Mixed electron–proton conductors](https://doi.org/10.1021/jacs.9b03327) enabled spatial separation of bond activation and charge transfer in electrocatalysis (JACS, 2019).
+- [Suppressing ion transfer](https://doi.org/10.1021/jacs.7b10966) enabled electrochemical surface area measurements for comparing intrinsic activity (JACS, 2018).
+- [Nickel sulfide surface restructuring](https://doi.org/10.1016/j.joule.2017.08.020) showed how the surface of heazlewoodite changes during oxygen reduction (Joule, 2017).
+- The [membrane-free formate fuel cell](https://doi.org/10.1002/anie.201702578) used a selective nickel sulfide oxygen reduction catalyst at neutral pH (Angewandte Chemie, 2017).
+- The [dinuclear dysprosium study](https://doi.org/10.1039/C6DT01082B) examined how different lattice solvents affect slow magnetic relaxation in bipyrimidine-bridged single-molecule magnets (Dalton Transactions, 2016).
+- The [heazlewoodite study](https://doi.org/10.1021/jacs.5b03426) identified Ni₃S₂ as a catalyst for oxygen reduction to water under benign conditions (JACS, 2015).
+- The [lanthanide single-ion magnet study](https://doi.org/10.1039/C4QI00057A) examined how ligand conformation regulates slow magnetic relaxation in a dysprosium complex (Inorganic Chemistry Frontiers, 2014).
+
+Her [publications page](https://bingyan.me/papers/) lists all her papers.
+
+## Teaching, service and awards
+
+Bing has been a teaching assistant for Introduction to Machine Learning and Machine Learning at NYU and for inorganic chemistry courses at MIT. She served as an area chair for the NeurIPS 2025 and ICML 2024 AI for Science workshops and has reviewed for ICLR, ICML, ACL, and COLM. Her honors include NYU's Henry M. MacCracken Fellowship (2022–2027), selection as a Rowland Fellowship finalist (2021), and the Moore Fellowship (2018).

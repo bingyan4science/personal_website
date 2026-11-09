@@ -7,7 +7,31 @@
 
 - query: "where did you get your phd"
   rubric_points:
-    - {text: "Says MIT (chemistry); may also mention NYU as current PhD", required: true}
+    - {text: "Identifies the completed MIT Ph.D. in Chemistry and the NYU computer science doctorate as in progress", required: true}
+
+- query: "Is Bing still a visiting researcher at Meta?"
+  rubric_points:
+    - {text: "Says the Meta FAIR visiting research appointment ended in 2026", required: true}
+
+- query: "Who does Bing work with at Matterstack?"
+  rubric_points:
+    - {text: "Names Stefano Martiniani", required: true}
+
+- query: "Where was the EVA-Flow paper accepted?"
+  rubric_points:
+    - {text: "Identifies Transactions on Machine Learning Research or TMLR", required: true}
+
+- query: "Which measurements can SPARK use?"
+  rubric_points:
+    - {text: "Mentions cyclic voltammetry, Tafel measurements, and thermal catalysis", required: true}
+
+- query: "How does ReasonFlow use a language model?"
+  rubric_points:
+    - {text: "Explains that language-model encodings of intermediate steps train a latent flow model", required: true}
+
+- query: "What does AskChem let researchers search?"
+  rubric_points:
+    - {text: "Describes finding individual claims in the chemistry literature with links to the source evidence", required: true}
 
 - query: "what is CatScore"
   rubric_points:
