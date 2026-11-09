@@ -1,13 +1,10 @@
 # Home-page News. Newest first. `html` may contain links/markup.
 - date: "Nov 8, 2026"
   html: >-
-    <strong>Upcoming:</strong> I will present <em>Learning Reaction Mechanisms to
-    Design Selective Catalysts</em> at the
+    I presented my poster, <a href="/posters/AIChE_2026.pdf"><em>Learning Reaction Mechanisms to
+    Design Selective Catalysts</em> (PDF)</a>, at the
     <a href="https://www.aiche.org/conferences/aiche-annual-meeting/2026/events/2026-meet-faculty-and-post-doc-candidates-poster-session">AIChE
-    Meet the Faculty and Post-Doc Candidates Poster Session</a> in Minneapolis.
-    Meet me at <strong>poster board 31</strong> on Sunday, November 8, from
-    1–3 p.m. CST at the Minneapolis Convention Center, Exhibit Hall B.
-    <a href="/posters/AIChE_2026.pdf">View poster (PDF)</a>.
+    Meet the Faculty and Post-Doc Candidates Poster Session</a> in Minneapolis (board 31).
 
 - date: "Oct 23, 2026"
   html: >-
