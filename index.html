@@ -51,13 +51,22 @@ description: Bing Yan connects machine learning with experimental chemistry to l
 </section>
 
 <section class="section">
-  <h2 class="section-title">Research Interests</h2>
+  <h2 class="section-title">Research Themes</h2>
   <ul class="areas">
     <li><strong>Learning chemistry from imperfect evidence.</strong> Developing models that connect scientific claims to experimental support, reason under uncertainty, and revise their conclusions as new evidence emerges.</li>
     <li><strong>Molecular generation across environments.</strong> Learning how molecular structures and energies change in solution, crystals, and protein binding pockets, with the goal of extending these insights to transition states and reaction barriers.</li>
     <li><strong>Discovering reaction mechanisms.</strong> Combining simulation, spectroscopy, and experimental kinetics to infer hidden reaction steps, identify unexpected products, and select measurements that distinguish competing pathways.</li>
     <li><strong>Designing catalysts and electrochemical interfaces.</strong> Using mechanistic predictions and experimental feedback to design ligands, catalysts, and reaction environments that control rates and selectivity across substrates.</li>
   </ul>
+  <div class="home-guides">
+    <h3><a href="{{ '/research/' | relative_url }}">Research guides and reading lists</a></h3>
+    <ul>
+      {% assign guides = site.pages | where: "layout", "research-guide" | sort: "guide_order" %}
+      {% for guide in guides %}
+      <li><a href="{{ guide.url | relative_url }}">{{ guide.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 
 <section class="section">
@@ -106,12 +115,12 @@ description: Bing Yan connects machine learning with experimental chemistry to l
     {% for paper in site.data.papers.notable %}
     <li class="pub">
       {% if paper.image %}
-      <a class="pub-thumb" href="{{ paper.pdf }}" target="_blank" rel="noopener">
+      <a class="pub-thumb" href="{{ paper.url | default: paper.pdf }}" target="_blank" rel="noopener">
         <img src="{{ paper.image | relative_url }}" alt="Figure from “{{ paper.title }}”" loading="lazy">
       </a>
       {% endif %}
       <div class="pub-body">
-        <a class="pub-title" href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+        <a class="pub-title" href="{{ paper.url | default: paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
         <p class="pub-authors">{{ paper.authors | replace: "Bing Yan", "<strong>Bing Yan</strong>" }}</p>
         {% if paper.conference %}<p class="pub-venue">{{ paper.conference }}</p>{% endif %}
       </div>

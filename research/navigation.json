@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /research/navigation.json
+---
+{% assign guides = site.pages | where: "layout", "research-guide" | sort: "guide_order" -%}
+{
+  "guides": [
+    {% for guide in guides -%}
+    {
+      "title": {{ guide.title | jsonify }},
+      "question": {{ guide.question | jsonify }},
+      "url": {{ guide.url | absolute_url | jsonify }},
+      "updated": {{ guide.reviewed | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor -%}
+  ],
+  "bibliography": {{ '/research/reading-list.bib' | absolute_url | jsonify }},
+  "papers": {{ '/research/readings.json' | absolute_url | jsonify }}
+}

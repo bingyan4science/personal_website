@@ -25,9 +25,9 @@ askchem:
   purpose: "The visitor specifically wants to open, read, or download Bing Yan's AskChem paper."
 
 reasonflow:
-  url: "https://bingyan.me/reasonflow.pdf"
+  url: "https://aclanthology.org/2026.findings-emnlp.2268/"
   name: "ReasonFlow paper"
-  label: "ReasonFlow (PDF)"
+  label: "ReasonFlow (ACL Anthology)"
   description: "ReasonFlow: Flow Matching that Thinks Step by Step"
   purpose: "The visitor specifically wants to open, read, or download Bing Yan's ReasonFlow paper."
 

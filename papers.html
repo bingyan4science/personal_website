@@ -8,25 +8,32 @@ description: Publications by Bing Yan in AI + Chemistry, machine learning, and e
 ---
 
 <section class="section">
-  <h2 class="section-title">Publications</h2>
+  <h1 class="section-title">Publications</h1>
   <p class="prose">
-    My complete list of papers is available on
+    Browse the <a href="{{ '/research/' | relative_url }}">annotated reading guides by research theme</a>
+    or find my complete publication list on
     <a href="https://scholar.google.com/citations?user=337w9-V_WxIC&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
   </p>
 
   <ul class="pub-list">
+    {% assign guides = site.pages | where: "layout", "research-guide" %}
     {% for paper in site.data.papers.papers %}
     <li class="pub">
       {% if paper.image %}
-      <a class="pub-thumb" href="{{ paper.pdf }}" target="_blank" rel="noopener">
+      <a class="pub-thumb" href="{{ paper.url | default: paper.pdf }}" target="_blank" rel="noopener">
         <img src="{{ paper.image | relative_url }}" alt="Figure from “{{ paper.title }}”" loading="lazy">
       </a>
       {% endif %}
       <div class="pub-body">
-        <a class="pub-title" href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+        <a class="pub-title" href="{{ paper.url | default: paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>
         <p class="pub-authors">{{ paper.authors | replace: "Bing Yan", "<strong>Bing Yan</strong>" }}</p>
         {% if paper.contribution_note %}<p class="pub-authors">{{ paper.contribution_note }}</p>{% endif %}
         {% if paper.conference %}<p class="pub-venue">{{ paper.conference }}</p>{% endif %}
+        {% if paper.guide %}
+        {% assign guide_url = '/research/' | append: paper.guide | append: '/' %}
+        {% assign guide = guides | where: "url", guide_url | first %}
+        <p class="pub-guide"><a href="{{ guide_url | relative_url }}">Reading guide · {{ guide.title | escape }}</a></p>
+        {% endif %}
       </div>
     </li>
     {% endfor %}

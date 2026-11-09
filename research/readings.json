@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /research/readings.json
+---
+{{ site.data.research_readings | jsonify }}

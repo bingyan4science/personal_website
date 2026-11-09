@@ -1,28 +1,34 @@
 notable: 
     - title: "EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation"
       authors: Bing Yan, Anuroop Sriram, Zachary Ward Ulissi, Kyunghyun Cho, Ricky T. Q. Chen, Benjamin Kurt Miller
+      url: https://openreview.net/forum?id=pD4Smou3Xp
       pdf: /papers/EVA_Flow.pdf
       image: /images/eva-flow-figure.svg
       conference: Transactions on Machine Learning Research (TMLR), 2026
     - title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
       authors: Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
+      url: https://aclanthology.org/2026.emnlp-demos.69/
       pdf: https://huggingface.co/papers/2607.28618
       image: /images/askchem-figure.png
       conference: EMNLP 2026 System Demonstrations
     - title: "ReasonFlow: Flow Matching that Thinks Step by Step"
       authors: Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho
+      url: https://aclanthology.org/2026.findings-emnlp.2268/
       pdf: /reasonflow.pdf
       image: /images/reasonflow-figure.png
       conference: Findings of EMNLP 2026
     - title: "Inconsistency of LLMs in Molecular Representations"
       authors: Bing Yan, Angelica Chen, Kyunghyun Cho
+      url: https://doi.org/10.1039/D5DD00176E
+      conference: Digital Discovery, 2025, 4, 2876–2892
       pdf: https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00176e
       image: /images/consistency.png
     - title: "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency"
       authors: Bing Yan, Kyunghyun Cho
+      url: https://doi.org/10.1039/D4DD00114A
       pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
       image: /images/toc.png
-      conference: Digital Discovery. 2024, Advance Article
+      conference: Digital Discovery, 2024, 3, 1624–1637
     - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cssc.202102317
@@ -47,35 +53,50 @@ notable:
 papers:
     - title: "EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation"
       authors: Bing Yan, Anuroop Sriram, Zachary Ward Ulissi, Kyunghyun Cho, Ricky T. Q. Chen, Benjamin Kurt Miller
+      url: https://openreview.net/forum?id=pD4Smou3Xp
+      guide: molecular-conformations
       pdf: /papers/EVA_Flow.pdf
       image: /images/eva-flow-figure.svg
       conference: Transactions on Machine Learning Research (TMLR), 2026
     - title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
       authors: Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho
+      url: https://aclanthology.org/2026.emnlp-demos.69/
+      guide: chemistry-literature-synthesis
       pdf: https://huggingface.co/papers/2607.28618
       image: /images/askchem-figure.png
       conference: EMNLP 2026 System Demonstrations
     - title: "ReasonFlow: Flow Matching that Thinks Step by Step"
       authors: Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho
+      url: https://aclanthology.org/2026.findings-emnlp.2268/
+      guide: chemistry-language-models
       pdf: /reasonflow.pdf
       image: /images/reasonflow-figure.png
       conference: Findings of EMNLP 2026
     - title: "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching"
       authors: Aaron J Havens<sup>*</sup>, Benjamin Kurt Miller<sup>*</sup>, Bing Yan<sup>*</sup>, Carles Domingo-Enrich, Anuroop Sriram, Daniel S. Levine, Brandon M Wood, Bin Hu, Brandon Amos, Brian Karrer, Xiang Fu<sup>*</sup>, Guan-Horng Liu<sup>*</sup>, Ricky T. Q. Chen<sup>*</sup>
       contribution_note: "* Core contributors"
+      url: https://proceedings.mlr.press/v267/havens25a.html
+      guide: molecular-conformations
+      conference: ICML 2025
       pdf: https://openreview.net/pdf?id=6Eg1OrHmg2
       image: /images/AS_progressio.png
     - title: "Inconsistency of LLMs in Molecular Representations"
       authors: Bing Yan, Angelica Chen, Kyunghyun Cho
+      url: https://doi.org/10.1039/D5DD00176E
+      guide: chemistry-language-models
+      conference: Digital Discovery, 2025, 4, 2876–2892
       pdf: https://pubs.rsc.org/en/content/articlepdf/2025/dd/d5dd00176e
       image: /images/consistency.png
     - title: "CatScore: Evaluating Asymmetric Catalyst Design at High Efficiency"
       authors: Bing Yan, Kyunghyun Cho
+      url: https://doi.org/10.1039/D4DD00114A
+      guide: catalysis-mechanisms
       pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
       image: /images/toc.png
-      conference: Digital Discovery. 2024, Advance Article
+      conference: Digital Discovery, 2024, 3, 1624–1637
     - title: "Structured Chemistry Reasoning with Large Language Models"
       authors: Siru Ouyang, Zhuosheng Zhang, Bing Yan, Xuan Liu, Yejin Choi, Jiawei Han, Lianhui Qin
+      guide: chemistry-language-models
       pdf: https://proceedings.mlr.press/v235/ouyang24a.html
       image: /images/structchem.jpeg
       conference: ICML 2024
@@ -87,6 +108,7 @@ papers:
     - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
+      guide: catalysis-mechanisms
       pdf : https://doi.org/10.1021/jacs.9b03327
       image: /images/JACS2019.gif
     - title: "Suppressing Ion Transfer Enables Versatile Measurements of Electrochemical Surface Area for Intrinsic Activity Comparisons"
@@ -95,8 +117,9 @@ papers:
       image: /images/jacs2018.gif
       conference: J. Am. Chem. Soc. 2018, 140, 2397-2400
     - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
-      authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath
+      authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath, Venkatasubramanian Viswanathan
       conference: Joule 2017, 1, 600-612. <br/>Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
+      guide: catalysis-mechanisms
       pdf : https://doi.org/10.1016/j.joule.2017.08.020
       image: /images/Joule2017.jpg
     - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
@@ -106,7 +129,7 @@ papers:
       image: /images/anie2017.png
     - title: "Dinuclear Dysprosium SMMs Bridged by a Neutral Bipyrimidine Ligand: Two Crystal Systems that Depend on Different Lattice Solvents Lead to a Distinct Slow Relaxation Behavior"
       authors: Wen-Bin Sun, Bing Yan, Li-Hui Jia, Bing-Wu Wang, Qian Yang, Xin Cheng, Hong-Feng Li, Peng Chen, Zhe-Ming Wang, Song Gao
-      pdf: DOI	https://doi.org/10.1039/C6DT01082B
+      pdf: https://doi.org/10.1039/C6DT01082B
       image: /images/Dalton2016.png
       conference: Dalton Trans. 2016, 45, 8790-8794
     - title: "Heazlewoodite, Ni3S2: A Potent Catalyst for Oxygen Reduction to Water under Benign Conditions"
@@ -116,7 +139,7 @@ papers:
       conference: J. Am. Chem. Soc. 2015, 137, 7978-7981
     - title: "The Slow Magnetic Relaxation Regulated by Ligand Conformation of a Lanthanide Single-Ion Magnet [Hex4N][Dy(DBM)4]"
       authors: Wen-Bin Sun, Bing Yan, Yi-Quan Zhang, Bing-Wu Wang, Zhe-Ming Wang, Jun-Hua Jia, Song Gao
-      pdf: 10.1039/c4qi00057a
+      pdf: https://doi.org/10.1039/C4QI00057A
       image: /images/ICF2014.png
       conference: Inorg. Chem. Front. 2014, 1, 503-509
  

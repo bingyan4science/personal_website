@@ -1,0 +1,55 @@
+---
+layout: page
+title: Research themes and reading guides
+description: Annotated research guides by Bing Yan on chemistry language models, molecular conformation generation, chemistry literature synthesis, and catalyst mechanisms and selectivity.
+permalink: /research/
+---
+
+<section class="section research-index">
+  <header class="research-intro">
+    <h1>Research themes</h1>
+    <p>I study how molecular structure and environment shape chemical reactivity. These guides pair my papers with work by colleagues from MIT, NYU, Meta FAIR, and the wider field. Each starts with a question, from how to compare two conformer sets to which experiment supports a claim about a catalyst.</p>
+  </header>
+
+  <div class="guide-directory">
+    {% assign guides = site.pages | where: "layout", "research-guide" | sort: "guide_order" %}
+    {% for guide in guides %}
+    <article class="guide-entry">
+      <span class="guide-figure">
+        <img src="{{ guide.image | relative_url }}" alt="" loading="lazy">
+      </span>
+      <div>
+        <h2><a href="{{ guide.url | relative_url }}">{{ guide.title | escape }}</a></h2>
+        <p>{{ guide.question | escape }}</p>
+        <p class="guide-topics">{{ guide.topics | escape }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <section id="bibliography" class="guide-downloads">
+    <h2>Citations and downloads</h2>
+    <p>The bibliography includes papers discussed across the four guides.</p>
+    <ul class="research-links">
+      <li><a href="{{ '/research/reading-list.bib' | relative_url }}" download>Download BibTeX</a></li>
+      <li><a href="{{ '/research/readings.json' | relative_url }}">Paper metadata (JSON)</a></li>
+      <li><a href="{{ '/research/navigation.json' | relative_url }}">Guide directory (JSON)</a></li>
+    </ul>
+    <details class="reading-list">
+      <summary>Browse all {{ site.data.research_readings | size }} papers</summary>
+      {% for guide in guides %}
+      {% assign slug = guide.url | split: '/' | last %}
+      {% assign papers = site.data.research_readings | where: "theme", slug %}
+      <h3><a href="{{ guide.url | relative_url }}">{{ guide.title | escape }}</a></h3>
+      <ul>
+        {% for paper in papers %}
+        <li>
+          <a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a> ({{ paper.year }})
+          <span class="reading-authors">{{ paper.authors | join: ', ' | escape }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </details>
+  </section>
+</section>

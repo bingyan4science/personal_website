@@ -51,11 +51,10 @@
   AskChem was [featured by the NYU Center for Data Science](https://nyudatascience.medium.com/askchem-a-new-search-engine-for-chemistry-research-50d28404b692)
   on October 23, 2026, with an [official X announcement](https://x.com/NYUDataScience/status/2113658678725186010).
 - "[ReasonFlow: Flow Matching that Thinks Step by
-  Step](https://bingyan.me/reasonflow.pdf)" (Bing Yan, Ge Sun, Juan J. de Pablo,
-  Stefano Martiniani, Kyunghyun Cho), accepted to Findings of EMNLP 2026.
-  ReasonFlow brings step-by-step reasoning to flow-matching language models by
-  shaping their trajectories with chain-of-thought anchor states, enabling
-  intermediate reasoning supervision rather than training only on final answers.
+  Step](https://aclanthology.org/2026.findings-emnlp.2268/)" (Bing Yan, Ge Sun, Juan J. de Pablo,
+  Stefano Martiniani, Kyunghyun Cho), Findings of EMNLP 2026.
+  ReasonFlow trains a latent flow using intermediate solution steps encoded by a
+  language model. At inference a decoder reads the answer from the flow’s endpoint.
 - "Inconsistency of LLMs in Molecular Representations" (Bing Yan, Angelica Chen,
   Kyunghyun Cho), Digital Discovery, 2025 - shows that LLMs give inconsistent
   answers across SMILES versus IUPAC name representations of the same molecule.

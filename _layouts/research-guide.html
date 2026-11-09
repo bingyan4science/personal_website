@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="section research-guide">
+  <nav class="guide-breadcrumb" aria-label="Breadcrumb"><a href="{{ '/research/' | relative_url }}">Research themes</a> / {{ page.title | escape }}</nav>
+  <header class="guide-heading">
+    <h1>{{ page.question | escape }}</h1>
+    <p>Reading guide by Bing Yan · Updated <time datetime="{{ page.reviewed }}">{{ page.reviewed | date: "%B %-d, %Y" }}</time></p>
+  </header>
+  <div class="guide-body">
+    {{ content }}
+  </div>
+  <footer class="guide-downloads">
+    <a href="{{ '/research/#bibliography' | relative_url }}">Citations and downloads for all guides</a>
+  </footer>
+</article>

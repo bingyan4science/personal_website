@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /research/reading-list.bib
+---
+{% for paper in site.data.research_readings -%}
+@{{ paper.type }}{ {{- paper.key }},
+  title = "{ {{- paper.title | split: '&' | join: '\&' -}} }",
+  author = { {{- paper.authors | join: ' and ' -}} },
+{% if paper.journal %}  journal = { {{- paper.journal -}} },
+{% endif %}{% if paper.booktitle %}  booktitle = { {{- paper.booktitle -}} },
+{% endif %}  year = { {{- paper.year -}} },
+{% if paper.volume %}  volume = { {{- paper.volume -}} },
+{% endif %}{% if paper.pages %}  pages = { {{- paper.pages | replace: '-', '--' -}} },
+{% endif %}{% if paper.doi %}  doi = { {{- paper.doi -}} },
+{% endif %}  url = { {{- paper.url -}} }
+}
+
+{% endfor -%}

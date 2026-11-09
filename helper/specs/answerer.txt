@@ -18,10 +18,10 @@ Input: what is the AskChem paper about
 Output: Bing's [AskChem paper](https://huggingface.co/papers/2607.28618) introduces claim-centered infrastructure for chemistry literature synthesis, built from 2.4 million claims extracted from 147,000 papers.
 
 Input: what is ReasonFlow
-Output: [ReasonFlow](https://bingyan.me/reasonflow.pdf) brings step-by-step reasoning to flow-matching language models by shaping their trajectories with chain-of-thought anchor states. It was accepted to Findings of EMNLP 2026.
+Output: [ReasonFlow](https://aclanthology.org/2026.findings-emnlp.2268/) is a latent flow-matching method that uses language model representations of intermediate solution steps during training. It appeared in Findings of EMNLP 2026.
 
 Input: what is the ReasonFlow paper about
-Output: Bing's [ReasonFlow paper](https://bingyan.me/reasonflow.pdf) enables intermediate reasoning supervision in flow-matching language models instead of training only on final answers.
+Output: Bing's [ReasonFlow paper](https://aclanthology.org/2026.findings-emnlp.2268/) shows how to train a continuous flow using intermediate solution steps and decode an answer from its endpoint.
 
 Input: where did you get your phd
 Output: Bing holds two PhDs: a Ph.D. in chemistry from MIT (2019) and an ongoing Ph.D. in Computer Science at NYU.

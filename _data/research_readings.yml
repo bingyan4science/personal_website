@@ -1,0 +1,294 @@
+- key: yan2025inconsistency
+  theme: chemistry-language-models
+  type: article
+  title: Inconsistency of LLMs in molecular representations
+  authors: [Bing Yan, Angelica Chen, Kyunghyun Cho]
+  journal: Digital Discovery
+  year: 2025
+  volume: 4
+  pages: 2876-2892
+  doi: 10.1039/D5DD00176E
+  url: https://doi.org/10.1039/D5DD00176E
+
+- key: tu2022permutation
+  theme: chemistry-language-models
+  type: article
+  title: Permutation Invariant Graph-to-Sequence Model for Template-Free Retrosynthesis and Reaction Prediction
+  authors: [Zhengkai Tu, Connor W. Coley]
+  journal: Journal of Chemical Information and Modeling
+  year: 2022
+  volume: 62
+  pages: 3503-3513
+  doi: 10.1021/acs.jcim.2c00321
+  url: https://doi.org/10.1021/acs.jcim.2c00321
+
+- key: wang2022reactionaware
+  theme: chemistry-language-models
+  type: inproceedings
+  title: Chemical-Reaction-Aware Molecule Representation Learning
+  authors: [Hongwei Wang, Weijiang Li, Xiaomeng Jin, Kyunghyun Cho, Heng Ji, Jiawei Han, Martin D. Burke]
+  booktitle: The Tenth International Conference on Learning Representations
+  year: 2022
+  url: https://openreview.net/forum?id=6sh3pIzKS-
+
+- key: pmlr-v235-ouyang24a
+  theme: chemistry-language-models
+  type: inproceedings
+  title: Structured Chemistry Reasoning with Large Language Models
+  authors: [Siru Ouyang, Zhuosheng Zhang, Bing Yan, Xuan Liu, Yejin Choi, Jiawei Han, Lianhui Qin]
+  booktitle: Proceedings of the 41st International Conference on Machine Learning
+  year: 2024
+  volume: 235
+  pages: 38937-38952
+  url: https://proceedings.mlr.press/v235/ouyang24a.html
+
+- key: yan-etal-2026-reasonflow
+  theme: chemistry-language-models
+  type: inproceedings
+  title: "ReasonFlow: Flow Matching that Thinks Step by Step"
+  authors: [Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho]
+  booktitle: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  year: 2026
+  pages: 48554-48571
+  doi: 10.18653/2026.findings-emnlp.2268
+  url: https://aclanthology.org/2026.findings-emnlp.2268/
+
+- key: mansimov2019geometry
+  theme: molecular-conformations
+  type: article
+  title: Molecular Geometry Prediction using a Deep Generative Graph Neural Network
+  authors: [Elman Mansimov, Omar Mahmood, Seokho Kang, Kyunghyun Cho]
+  journal: Scientific Reports
+  year: 2019
+  volume: 9
+  pages: "20381"
+  doi: 10.1038/s41598-019-56773-5
+  url: https://doi.org/10.1038/s41598-019-56773-5
+
+- key: jing2022torsional
+  theme: molecular-conformations
+  type: inproceedings
+  title: Torsional Diffusion for Molecular Conformer Generation
+  authors: [Bowen Jing, Gabriele Corso, Jeffrey Chang, Regina Barzilay, Tommi Jaakkola]
+  booktitle: Advances in Neural Information Processing Systems
+  year: 2022
+  volume: 35
+  pages: 24240-24253
+  doi: 10.52202/068431-1760
+  url: https://papers.nips.cc/paper_files/paper/2022/hash/994545b2308bbbbc97e3e687ea9e464f-Abstract-Conference.html
+
+- key: pmlr-v162-wang22ag
+  theme: molecular-conformations
+  type: inproceedings
+  title: Generative Coarse-Graining of Molecular Conformations
+  authors: [Wujie Wang, Minkai Xu, Chen Cai, Benjamin K Miller, Tess Smidt, Yusu Wang, Jian Tang, Rafael Gomez-Bombarelli]
+  booktitle: Proceedings of the 39th International Conference on Machine Learning
+  year: 2022
+  volume: 162
+  pages: 23213-23236
+  url: https://proceedings.mlr.press/v162/wang22ag.html
+
+- key: yan2026evaflow
+  theme: molecular-conformations
+  type: article
+  title: "EVA-Flow: Learning Shared Chemistry for Unified Environment-Aware Molecular Conformation Generation"
+  authors: [Bing Yan, Anuroop Sriram, Zachary Ward Ulissi, Kyunghyun Cho, Ricky T. Q. Chen, Benjamin Kurt Miller]
+  journal: Transactions on Machine Learning Research
+  year: 2026
+  url: https://openreview.net/forum?id=pD4Smou3Xp
+
+- key: corso2023diffdock
+  theme: molecular-conformations
+  type: inproceedings
+  title: "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking"
+  authors: [Gabriele Corso, Hannes Stärk, Bowen Jing, Regina Barzilay, Tommi Jaakkola]
+  booktitle: The Eleventh International Conference on Learning Representations
+  year: 2023
+  url: https://openreview.net/forum?id=kKF8_K-mBbS
+
+- key: pmlr-v267-havens25a
+  theme: molecular-conformations
+  type: inproceedings
+  title: "Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching"
+  authors:
+    - Aaron J Havens
+    - Benjamin Kurt Miller
+    - Bing Yan
+    - Carles Domingo-Enrich
+    - Anuroop Sriram
+    - Daniel S. Levine
+    - Brandon M Wood
+    - Bin Hu
+    - Brandon Amos
+    - Brian Karrer
+    - Xiang Fu
+    - Guan-Horng Liu
+    - Ricky T. Q. Chen
+  booktitle: Proceedings of the 42nd International Conference on Machine Learning
+  year: 2025
+  volume: 267
+  pages: 22204-22237
+  url: https://proceedings.mlr.press/v267/havens25a.html
+
+- key: yan-etal-2026-askchem
+  theme: chemistry-literature-synthesis
+  type: inproceedings
+  title: "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis"
+  authors: [Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho]
+  booktitle: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
+  year: 2026
+  pages: 728-737
+  doi: 10.18653/2026.emnlp-demos.69
+  url: https://aclanthology.org/2026.emnlp-demos.69/
+
+- key: nogueira2020navigation
+  theme: chemistry-literature-synthesis
+  type: article
+  title: Navigation-based candidate expansion and pretrained language models for citation recommendation
+  authors: [Rodrigo Nogueira, Zhiying Jiang, Kyunghyun Cho, Jimmy Lin]
+  journal: Scientometrics
+  year: 2020
+  volume: 125
+  pages: 3001-3016
+  doi: 10.1007/s11192-020-03718-9
+  url: https://doi.org/10.1007/s11192-020-03718-9
+
+- key: jensen2019zeolite
+  theme: chemistry-literature-synthesis
+  type: article
+  title: A Machine Learning Approach to Zeolite Synthesis Enabled by Automatic Literature Data Extraction
+  authors: [Zach Jensen, Edward Kim, Soonhyoung Kwon, Terry Z. H. Gani, Yuriy Román-Leshkov, Manuel Moliner, Avelino Corma, Elsa Olivetti]
+  journal: ACS Central Science
+  year: 2019
+  volume: 5
+  pages: 892-899
+  doi: 10.1021/acscentsci.9b00193
+  url: https://doi.org/10.1021/acscentsci.9b00193
+
+- key: yan2017restructuring
+  theme: catalysis-mechanisms
+  type: article
+  title: Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis
+  authors: [Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath, Venkatasubramanian Viswanathan]
+  journal: Joule
+  year: 2017
+  volume: 1
+  pages: 600-612
+  doi: 10.1016/j.joule.2017.08.020
+  url: https://doi.org/10.1016/j.joule.2017.08.020
+
+- key: yan2019conductors
+  theme: catalysis-mechanisms
+  type: article
+  title: Mixed Electron–Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis
+  authors: [Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath]
+  journal: Journal of the American Chemical Society
+  year: 2019
+  volume: 141
+  pages: 11115-11122
+  doi: 10.1021/jacs.9b03327
+  url: https://doi.org/10.1021/jacs.9b03327
+
+- key: yan2024catscore
+  theme: catalysis-mechanisms
+  type: article
+  title: "CatScore: evaluating asymmetric catalyst design at high efficiency"
+  authors: [Bing Yan, Kyunghyun Cho]
+  journal: Digital Discovery
+  year: 2024
+  volume: 3
+  pages: 1624-1637
+  doi: 10.1039/D4DD00114A
+  url: https://doi.org/10.1039/D4DD00114A
+
+- key: wesley2021fields
+  theme: catalysis-mechanisms
+  type: article
+  title: Spontaneous Electric Fields Play a Key Role in Thermochemical Catalysis at Metal–Liquid Interfaces
+  authors: [Thejas S. Wesley, Yuriy Román-Leshkov, Yogesh Surendranath]
+  journal: ACS Central Science
+  year: 2021
+  volume: 7
+  pages: 1045-1055
+  doi: 10.1021/acscentsci.1c00293
+  url: https://doi.org/10.1021/acscentsci.1c00293
+
+- key: chanussot2021oc20
+  theme: catalysis-mechanisms
+  type: article
+  title: Open Catalyst 2020 (OC20) Dataset and Community Challenges
+  authors:
+    - Lowik Chanussot
+    - Abhishek Das
+    - Siddharth Goyal
+    - Thibaut Lavril
+    - Muhammed Shuaibi
+    - Morgane Riviere
+    - Kevin Tran
+    - Javier Heras-Domingo
+    - Caleb Ho
+    - Weihua Hu
+    - Aini Palizhati
+    - Anuroop Sriram
+    - Brandon Wood
+    - Junwoong Yoon
+    - Devi Parikh
+    - C. Lawrence Zitnick
+    - Zachary Ulissi
+  journal: ACS Catalysis
+  year: 2021
+  volume: 11
+  pages: 6059-6072
+  doi: 10.1021/acscatal.0c04525
+  url: https://doi.org/10.1021/acscatal.0c04525
+
+- key: sheng2024autonomous
+  theme: catalysis-mechanisms
+  type: article
+  title: Autonomous closed-loop mechanistic investigation of molecular electrochemistry via automation
+  authors:
+    - Hongyuan Sheng
+    - Jingwen Sun
+    - Oliver Rodríguez
+    - Benjamin B. Hoar
+    - Weitong Zhang
+    - Danlei Xiang
+    - Tianhua Tang
+    - Avijit Hazra
+    - Daniel S. Min
+    - Abigail G. Doyle
+    - Matthew S. Sigman
+    - Cyrille Costentin
+    - Quanquan Gu
+    - Joaquín Rodríguez-López
+    - Chong Liu
+  journal: Nature Communications
+  year: 2024
+  volume: 15
+  pages: "2781"
+  doi: 10.1038/s41467-024-47210-x
+  url: https://doi.org/10.1038/s41467-024-47210-x
+
+- key: jung2022buffers
+  theme: catalysis-mechanisms
+  type: article
+  title: Innocent buffers reveal the intrinsic pH- and coverage-dependent kinetics of the hydrogen evolution reaction on noble metals
+  authors: [Onyu Jung, Megan N. Jackson, Ryan P. Bisbey, Nicole E. Kogan, Yogesh Surendranath]
+  journal: Joule
+  year: 2022
+  volume: 6
+  pages: 476-493
+  doi: 10.1016/j.joule.2022.01.007
+  url: https://doi.org/10.1016/j.joule.2022.01.007
+
+- key: allian2011chemisorption
+  theme: catalysis-mechanisms
+  type: article
+  title: Chemisorption of CO and Mechanism of CO Oxidation on Supported Platinum Nanoclusters
+  authors: [Ayman D. Allian, Kazuhiro Takanabe, Kyle L. Fujdala, Xianghong Hao, Timothy J. Truex, Juan Cai, Corneliu Buda, Matthew Neurock, Enrique Iglesia]
+  journal: Journal of the American Chemical Society
+  year: 2011
+  volume: 133
+  pages: 4498-4517
+  doi: 10.1021/ja110073u
+  url: https://doi.org/10.1021/ja110073u

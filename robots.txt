@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /reasonflow.pdf
+
+Sitemap: https://bingyan.me/sitemap.xml
