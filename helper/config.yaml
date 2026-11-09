@@ -34,6 +34,9 @@ domains:
     facts_mode: runtime            # inject facts.md so content updates do not require recompiling
     context: site_facts
     classifier_redundancy:
+      - to: question
+        from: [reasonflow, askchem, askchem_tool, papers, scholar]
+        any_keywords: ["eva-flow", "eva flow", "evaflow", "spark"]
       - to: guides
         from: [question, papers, scholar]
         any_keywords: ["reading list", "reading guide", "research guide"]
