@@ -17,6 +17,7 @@ url: "https://bingyan.me" # the base hostname & protocol for your site
 twitter_username: bingyan4science
 github_username: bingyan4science
 linkedin_url: "https://www.linkedin.com/in/bing-yan-14226383/"
+orcid_url: "https://orcid.org/0000-0001-7874-725X"
 
 # Build settings
 markdown: kramdown
