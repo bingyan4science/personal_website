@@ -3,9 +3,9 @@ layout: research-guide
 title: Inferring catalytic mechanisms from kinetic data
 guide_order: 4
 image: /images/Joule2017.jpg
-topics: SPARK for reaction kinetics · Tafel analysis and thermal CO oxidation · CatScore for catalyst selectivity
+topics: SPARK research project · Tafel analysis and thermal CO oxidation · CatScore for catalyst selectivity
 question: How can we distinguish catalytic mechanisms that fit the same kinetic data?
-description: Learn how SPARK uses cyclic voltammetry, Tafel data, and thermal CO oxidation rates to identify competing reaction mechanisms and plan the next experiment.
+description: Explore the ongoing SPARK project and how cyclic voltammetry, Tafel data, and thermal CO oxidation rates can distinguish competing catalytic mechanisms.
 permalink: /research/catalysis-mechanisms/
 reviewed: '2026-11-10'
 ---
@@ -14,7 +14,9 @@ Two reaction mechanisms can predict the same current or turnover rate. To distin
 
 ## How does SPARK use kinetic data to plan the next experiment? {#spark}
 
-In *SPARK: Learning unseen chemistry to plan experiments*, Bing Yan and colleagues use simulation-based inference to estimate which reaction pathways and kinetic parameters are consistent with measured signals. SPARK stands for Simulation-based Posterior Amortization for Reaction Kinetics. The authors simulate the plausible pathways under new conditions to identify a measurement that could tell them apart. The manuscript is in preparation. The three case studies below reanalyze published experiments. [Manuscript listing in Bing Yan’s CV]({{ '/cv/Bing_Yan_CV.pdf' | relative_url }}#page=2)
+SPARK (Simulation-based Posterior Amortization for Reaction Kinetics) is an ongoing research project. The manuscript is in preparation. Its public demo lets you test reaction mechanisms against cyclic voltammograms. [Open the SPARK demo](https://huggingface.co/spaces/bing-yan/spark)
+
+Bing Yan and colleagues use simulations to estimate which reaction pathways and kinetic parameters fit a measurement. They then simulate those pathways under new conditions to find an experiment that could tell them apart. The three cases below revisit published experiments. Each links to the original study.
 
 ### Can Tafel data distinguish hydrogen evolution pathways on platinum? {#hydrogen-evolution-tafel}
 
