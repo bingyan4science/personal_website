@@ -10,4 +10,7 @@ permalink: /sitemap.xml
     <lastmod>{{ entry.reviewed | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endfor %}
+  <url>
+    <loc>{{ '/spark.pdf' | absolute_url | xml_escape }}</loc>
+  </url>
 </urlset>

@@ -16,6 +16,8 @@ Two reaction mechanisms can predict the same current or turnover rate. To distin
 
 We are developing SPARK (Simulation-based Posterior Amortization for Reaction Kinetics) to identify reaction pathways and rate constants that fit kinetic measurements. When several mechanisms fit the same data, we simulate each one under new conditions and look for a measurement that could distinguish them.
 
+[Read the SPARK manuscript draft (PDF)]({{ '/spark.pdf' | relative_url }})
+
 ### Can Tafel data distinguish hydrogen evolution pathways on platinum? {#hydrogen-evolution-tafel}
 
 Jung, Jackson, Bisbey, Kogan, and Surendranath measured the electrode potential needed to sustain a given current as they varied pH. In the SPARK analysis of these hydrogen evolution reaction (HER) data, a Volmer–Heyrovsky mechanism fits the potentials, and so does a mechanism that also allows Tafel recombination of two adsorbed hydrogen atoms. The models predict different hydrogen coverages. Measuring adsorbed hydrogen across pH while holding current fixed would test which pathway better explains the observations. [Jung et al., original Tafel measurements](https://doi.org/10.1016/j.joule.2022.01.007)
@@ -28,7 +30,7 @@ For thermal CO oxidation on platinum, two candidate pathways involve direct oxyg
 
 Sheng, Sun, and colleagues observed a return-scan peak in cyclic voltammetry of a cobalt porphyrin reacting with an organohalide. SPARK suggests that further reduction of the cobalt–alkyl product could contribute to the peak. Preparing that product independently and measuring its voltammogram would test the assignment. [Sheng et al., original voltammetry study](https://doi.org/10.1038/s41467-024-47210-x)
 
-The SPARK manuscript is in preparation. You can explore the cyclic voltammetry model with a simulated electron-transfer example or upload current–potential curves at several scan rates to see which mechanisms reproduce them. [Try the SPARK demo](https://huggingface.co/spaces/bing-yan/spark) · [Demo documentation](https://huggingface.co/spaces/bing-yan/spark/blob/main/README.md)
+You can explore the cyclic voltammetry model with a simulated electron-transfer example or upload current–potential curves at several scan rates to see which mechanisms reproduce them. [Try the SPARK demo](https://huggingface.co/spaces/bing-yan/spark) · [Demo documentation](https://huggingface.co/spaces/bing-yan/spark/blob/main/README.md)
 
 ## Which surface reduces oxygen on nickel sulfide?
 
