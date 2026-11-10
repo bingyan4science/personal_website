@@ -14,9 +14,7 @@ Two reaction mechanisms can predict the same current or turnover rate. To distin
 
 ## How does SPARK use kinetic data to plan the next experiment? {#spark}
 
-SPARK (Simulation-based Posterior Amortization for Reaction Kinetics) is an ongoing research project. The manuscript is in preparation. Its public demo lets you test reaction mechanisms against cyclic voltammograms. [Open the SPARK demo](https://huggingface.co/spaces/bing-yan/spark)
-
-Bing Yan and colleagues use simulations to estimate which reaction pathways and kinetic parameters fit a measurement. They then simulate those pathways under new conditions to find an experiment that could tell them apart. The three cases below revisit published experiments. Each links to the original study.
+We are developing SPARK (Simulation-based Posterior Amortization for Reaction Kinetics) to identify reaction pathways and rate constants that fit kinetic measurements. When several mechanisms fit the same data, we simulate each one under new conditions and look for a measurement that could distinguish them.
 
 ### Can Tafel data distinguish hydrogen evolution pathways on platinum? {#hydrogen-evolution-tafel}
 
@@ -30,7 +28,7 @@ For thermal CO oxidation on platinum, two candidate pathways involve direct oxyg
 
 Sheng, Sun, and colleagues observed a return-scan peak in cyclic voltammetry of a cobalt porphyrin reacting with an organohalide. SPARK suggests that further reduction of the cobalt–alkyl product could contribute to the peak. Preparing that product independently and measuring its voltammogram would test the assignment. [Sheng et al., original voltammetry study](https://doi.org/10.1038/s41467-024-47210-x)
 
-To try the cyclic voltammetry model, open the SPARK demo and choose a simulated electron-transfer example or upload current–potential curves at several scan rates. The demo shows which mechanisms can reproduce the data. [Try the SPARK cyclic voltammetry demo](https://huggingface.co/spaces/bing-yan/spark) · [Demo documentation](https://huggingface.co/spaces/bing-yan/spark/blob/main/README.md)
+The SPARK manuscript is in preparation. You can explore the cyclic voltammetry model with a simulated electron-transfer example or upload current–potential curves at several scan rates to see which mechanisms reproduce them. [Try the SPARK demo](https://huggingface.co/spaces/bing-yan/spark) · [Demo documentation](https://huggingface.co/spaces/bing-yan/spark/blob/main/README.md)
 
 ## Which surface reduces oxygen on nickel sulfide?
 
