@@ -32,10 +32,15 @@ description: Publications by Bing Yan in AI + Chemistry, machine learning, and e
         {% if paper.guide %}
         {% assign guide_url = '/research/' | append: paper.guide | append: '/' %}
         {% assign guide = guides | where: "url", guide_url | first %}
-        <p class="pub-guide"><a href="{{ guide_url | relative_url }}">Reading guide · {{ guide.title | escape }}</a></p>
+        <p class="pub-guide"><a href="{{ guide_url | relative_url }}{% if paper.guide_anchor %}#{{ paper.guide_anchor | escape }}{% endif %}">Reading guide · {{ paper.guide_label | default: guide.title | escape }}</a></p>
         {% endif %}
       </div>
     </li>
     {% endfor %}
   </ul>
+
+  <h2 class="section-title">Manuscript in preparation</h2>
+  <p><a href="{{ '/research/catalysis-mechanisms/' | relative_url }}#spark"><strong>SPARK: Learning unseen chemistry to plan experiments</strong></a><br>
+    Bing Yan, Zachary Ulissi, Benjamin Kurt Miller, and Kyunghyun Cho</p>
+  <p>SPARK uses kinetic measurements to distinguish competing catalytic mechanisms. The guide walks through cyclic voltammetry, Tafel data for hydrogen evolution, and thermal CO oxidation.</p>
 </section>

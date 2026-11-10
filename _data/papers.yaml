@@ -69,6 +69,8 @@ papers:
       authors: Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho
       url: https://aclanthology.org/2026.findings-emnlp.2268/
       guide: chemistry-language-models
+      guide_anchor: reasonflow
+      guide_label: Chain-of-thought supervision for latent flow matching
       pdf: /reasonflow.pdf
       image: /images/reasonflow-figure.png
       conference: Findings of EMNLP 2026

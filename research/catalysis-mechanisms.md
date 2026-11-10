@@ -1,16 +1,34 @@
 ---
 layout: research-guide
-title: Catalytic mechanisms and selectivity
+title: Inferring catalytic mechanisms from kinetic data
 guide_order: 4
 image: /images/Joule2017.jpg
-topics: Electrochemical and thermal catalysis · SPARK for reaction kinetics · CatScore for catalyst design
-question: What evidence identifies an active catalyst or explains its selectivity?
-description: Explore how SPARK uses voltammetry, Tafel data, and thermal catalytic rates to test mechanisms and plan experiments, and how CatScore evaluates catalyst selectivity.
+topics: SPARK for reaction kinetics · Tafel analysis and thermal CO oxidation · CatScore for catalyst selectivity
+question: How can we distinguish catalytic mechanisms that fit the same kinetic data?
+description: Learn how SPARK uses cyclic voltammetry, Tafel data, and thermal CO oxidation rates to identify competing reaction mechanisms and plan the next experiment.
 permalink: /research/catalysis-mechanisms/
-reviewed: '2026-11-09'
+reviewed: '2026-11-10'
 ---
 
-A catalyst can change composition during a reaction. Even when its structure is known, the current measured at an electrode can reflect events at different interfaces. When reading a mechanistic study, ask what the authors measured under reaction conditions and which part of their explanation depends on a model.
+Two reaction mechanisms can predict the same current or turnover rate. To distinguish them, look for a quantity on which their predictions diverge. For hydrogen evolution on platinum, that quantity can be the fraction of the surface occupied by hydrogen. For thermal CO oxidation, it can be how much CO remains adsorbed as the temperature rises.
+
+## How does SPARK use kinetic data to plan the next experiment? {#spark}
+
+In *SPARK: Learning unseen chemistry to plan experiments*, Bing Yan and colleagues use simulation-based inference to estimate which reaction pathways and kinetic parameters are consistent with measured signals. SPARK stands for Simulation-based Posterior Amortization for Reaction Kinetics. The authors simulate the plausible pathways under new conditions to identify a measurement that could tell them apart. The manuscript is in preparation. The three case studies below reanalyze published experiments. [Manuscript listing in Bing Yan’s CV]({{ '/cv/Bing_Yan_CV.pdf' | relative_url }}#page=2)
+
+### Can Tafel data distinguish hydrogen evolution pathways on platinum? {#hydrogen-evolution-tafel}
+
+Jung, Jackson, Bisbey, Kogan, and Surendranath measured the electrode potential needed to sustain a given current as they varied pH. In the SPARK analysis of these hydrogen evolution reaction (HER) data, a Volmer–Heyrovsky mechanism fits the potentials, and so does a mechanism that also allows Tafel recombination of two adsorbed hydrogen atoms. The models predict different hydrogen coverages. Measuring adsorbed hydrogen across pH while holding current fixed would test which pathway better explains the observations. [Jung et al., original Tafel measurements](https://doi.org/10.1016/j.joule.2022.01.007)
+
+### Which measurement could distinguish oxygen activation routes in thermal CO oxidation? {#thermal-co-oxidation}
+
+For thermal CO oxidation on platinum, two candidate pathways involve direct oxygen activation and CO-assisted oxygen activation. SPARK compares them using turnover rates and CO desorption measurements from Allian and colleagues, together with calculated energies. At 0.01 kPa CO and 10 kPa oxygen, the two routes predict similar CO coverage at 358 K, but their predictions diverge at 463 K. Measuring adsorbed CO at both temperatures would test that prediction. [Allian et al., original platinum CO oxidation study](https://doi.org/10.1021/ja110073u)
+
+### What could explain a return peak in a cyclic voltammogram?
+
+Sheng, Sun, and colleagues observed a return-scan peak in cyclic voltammetry of a cobalt porphyrin reacting with an organohalide. SPARK suggests that further reduction of the cobalt–alkyl product could contribute to the peak. Preparing that product independently and measuring its voltammogram would test the assignment. [Sheng et al., original voltammetry study](https://doi.org/10.1038/s41467-024-47210-x)
+
+To try the cyclic voltammetry model, open the SPARK demo and choose a simulated electron-transfer example or upload current–potential curves at several scan rates. The demo shows which mechanisms can reproduce the data. [Try the SPARK cyclic voltammetry demo](https://huggingface.co/spaces/bing-yan/spark) · [Demo documentation](https://huggingface.co/spaces/bing-yan/spark/blob/main/README.md)
 
 ## Which surface reduces oxygen on nickel sulfide?
 
@@ -23,16 +41,6 @@ Once an experiment identifies a candidate surface, a computational question foll
 A membrane experiment makes the location of each step testable. Yan and colleagues placed a tungsten oxide membrane that conducts electrons and protons between platinum and an aqueous electrolyte. The electrode still oxidized hydrogen. Their mechanistic measurements placed hydrogen activation at the platinum–gas interface and electron–proton charge separation at the oxide–solution interface. Hydrogen diffusion through the oxide coupled the two processes. [JACS membrane study](https://doi.org/10.1021/jacs.9b03327)
 
 Wesley, Román-Leshkov, and Surendranath explored the role of the interface in a thermal reaction, ethylene hydrogenation on carbon-supported platinum. They tracked the platinum potential during the reaction and changed it in two ways, by varying pH in water and by adding redox buffers in an organic solvent. Hydrogenation rates showed a similar dependence on open-circuit potential in both media. The comparison gives a reason to measure catalyst potential even in a reactor with no applied voltage. [Ethylene hydrogenation study](https://doi.org/10.1021/acscentsci.1c00293)
-
-## How can SPARK use kinetic measurements to choose the next experiment? {#spark}
-
-Two mechanisms can reproduce the same reaction rate yet predict different amounts of adsorbed hydrogen or CO on a catalyst. SPARK (Simulation-based Posterior Amortization for Reaction Kinetics) uses simulations of each reaction system to infer which pathways and kinetic parameters are consistent with the measurements. The manuscript revisits three published experiments and proposes a measurement for each.
-
-- **Cyclic voltammetry of a cobalt porphyrin.** Sheng, Sun, and colleagues observed a peak on the return scan. SPARK’s analysis suggests that further reduction can account for that peak. Preparing the cobalt–alkyl product independently and measuring its voltammogram would test its contribution. [Sheng et al., original voltammetry study](https://doi.org/10.1038/s41467-024-47210-x)
-- **Tafel data for hydrogen evolution on platinum.** Jung, Jackson, Bisbey, Kogan, and Surendranath measured the potential required to sustain a given current across pH. A Volmer–Heyrovsky pathway and one that also includes Tafel recombination both fit the potentials. Measuring adsorbed hydrogen across pH at fixed current would test their different predictions for surface coverage. [Jung et al., original hydrogen evolution study](https://doi.org/10.1016/j.joule.2022.01.007)
-- **Thermal CO oxidation on platinum.** SPARK combines Allian and colleagues’ turnover rates and CO desorption measurements with calculated energies to compare direct and CO-assisted oxygen activation. At 0.01 kPa CO and 10 kPa oxygen, the two routes predict similar CO coverage at 358 K and a larger difference at 463 K. Measuring adsorbed CO at both temperatures would test that prediction. [Allian et al., original thermal catalysis study](https://doi.org/10.1021/ja110073u)
-
-The public demo runs the cyclic voltammetry model. Try the simulated electron-transfer example to see which mechanisms reproduce the current at several scan rates. The manuscript, *SPARK: Learning unseen chemistry to plan experiments*, is in preparation. [Try the CV demo](https://huggingface.co/spaces/bing-yan/spark) · [Demo documentation](https://huggingface.co/spaces/bing-yan/spark/blob/main/README.md) · [Manuscript listing in Bing Yan’s CV]({{ '/cv/Bing_Yan_CV.pdf' | relative_url }}#page=2)
 
 ## How should a proposed asymmetric catalyst be scored?
 

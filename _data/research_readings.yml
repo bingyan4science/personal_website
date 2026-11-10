@@ -53,6 +53,15 @@
   doi: 10.18653/2026.findings-emnlp.2268
   url: https://aclanthology.org/2026.findings-emnlp.2268/
 
+- key: deng2024implicit
+  theme: chemistry-language-models
+  type: inproceedings
+  title: "From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step"
+  authors: [Yuntian Deng, Yejin Choi, Stuart Shieber]
+  booktitle: Advances in Neural Information Processing Systems
+  year: 2024
+  url: https://arxiv.org/abs/2405.14838
+
 - key: mansimov2019geometry
   theme: molecular-conformations
   type: article
