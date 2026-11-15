@@ -29,7 +29,7 @@ notable:
       pdf: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00114A
       image: /images/toc.png
       conference: Digital Discovery, 2024, 3, 1624–1637
-    - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
+    - title: "Electrochemical Activation of C-C Bonds through Mediated Hydrogen Atom Transfer Reactions"
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cssc.202102317
       image: /images/ChemSusChem2021.png
@@ -45,8 +45,8 @@ notable:
     #  pdf : https://doi.org/10.1016/j.joule.2017.08.020
       #code: https://github.com/harvardnlp/var-attn
     #  image: /images/Joule2017.jpg
-    #- title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
-    #  authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
+    #- title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Nickel Sulfide Oxygen Reduction Catalyst"
+    #  authors: Bing Yan, Nolan M. Concannon, Jarrod D. Milshtein, Fikile R. Brushett, Yogesh Surendranath
     #  pdf: https://doi.org/10.1002/anie.201702578
     #  conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
     # image: /images/anie2017.png
@@ -102,30 +102,43 @@ papers:
       pdf: https://proceedings.mlr.press/v235/ouyang24a.html
       image: /images/structchem.jpeg
       conference: ICML 2024
-    - title: "Electrochemical Activation of C-C Bonds via Mediated Hydrogen Atom Transfer Reactions"
+    - title: "Electrochemical Activation of C-C Bonds through Mediated Hydrogen Atom Transfer Reactions"
+      guide: experimental-electrocatalysis
+      guide_anchor: mediated-hat
+      guide_label: Electrochemical C–C bond cleavage through mediated HAT
       authors: Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Roman-Leshkov
       pdf: https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cssc.202102317
       image: /images/ChemSusChem2021.png
       conference: ChemSusChem. 2022, 15, e202102317
     - title: "Mixed Electron-Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis"
+      guide: experimental-electrocatalysis
+      guide_anchor: separated-interfaces
+      guide_label: Separating bond activation from charge transfer
       authors: Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath
       conference: J. Am. Chem. Soc. 2019, 141, 11115-11122
-      guide: catalysis-mechanisms
       pdf : https://doi.org/10.1021/jacs.9b03327
       image: /images/JACS2019.gif
     - title: "Suppressing Ion Transfer Enables Versatile Measurements of Electrochemical Surface Area for Intrinsic Activity Comparisons"
+      guide: experimental-electrocatalysis
+      guide_anchor: ecsa
+      guide_label: Measuring electrochemical surface area
       authors: Youngmin Yoon, Bing Yan, Yogesh Surendranath
       pdf: https://doi.org/10.1021/jacs.7b10966
       image: /images/jacs2018.gif
       conference: J. Am. Chem. Soc. 2018, 140, 2397-2400
     - title: "Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis"
+      guide: experimental-electrocatalysis
+      guide_anchor: nickel-sulfide-surface
+      guide_label: Identifying active surfaces during oxygen reduction
       authors: Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath, Venkatasubramanian Viswanathan
       conference: Joule 2017, 1, 600-612. <br/>Referred to by Fang Song, Jordan Katz, Xile Hu in "Catalyst Surface Dynamics Reveals a Simple Geometric Descriptor of Activity" Joule 2017, 1, 421-430.
-      guide: catalysis-mechanisms
       pdf : https://doi.org/10.1016/j.joule.2017.08.020
       image: /images/Joule2017.jpg
-    - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Ni3S2 Oxygen Reduction Catalyst"
-      authors: Bing Yan, Nolan M. Concannon, Yogesh Surendranath.
+    - title: "A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Nickel Sulfide Oxygen Reduction Catalyst"
+      guide: experimental-electrocatalysis
+      guide_anchor: membrane-free-fuel-cell
+      guide_label: Selective catalysts for membrane-free fuel cells
+      authors: Bing Yan, Nolan M. Concannon, Jarrod D. Milshtein, Fikile R. Brushett, Yogesh Surendranath
       pdf: https://doi.org/10.1002/anie.201702578
       conference: Inside Cover. Angew. Chem. Int. Ed. 2017, 56, 7496-7499
       image: /images/anie2017.png
@@ -135,6 +148,9 @@ papers:
       image: /images/Dalton2016.png
       conference: Dalton Trans. 2016, 45, 8790-8794
     - title: "Heazlewoodite, Ni3S2: A Potent Catalyst for Oxygen Reduction to Water under Benign Conditions"
+      guide: experimental-electrocatalysis
+      guide_anchor: heazlewoodite
+      guide_label: Nickel sulfide for oxygen reduction at neutral pH
       authors: Joseph M. Falkowski, Nolan M. Concannon, Bing Yan, Yogesh Surendranath
       pdf: https://doi.org/10.1021/jacs.5b03426
       image: /images/jacs2015.gif

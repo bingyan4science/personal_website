@@ -176,6 +176,7 @@
 
 - key: yan2017restructuring
   theme: catalysis-mechanisms
+  themes: [catalysis-mechanisms, experimental-electrocatalysis]
   type: article
   title: Surface Restructuring of Nickel Sulfide Generates Optimally Coordinated Active Sites for Oxygen Reduction Catalysis
   authors: [Bing Yan, Dilip Krishnamurthy, Christopher H. Hendon, Siddharth Deshpande, Yogesh Surendranath, Venkatasubramanian Viswanathan]
@@ -188,6 +189,7 @@
 
 - key: yan2019conductors
   theme: catalysis-mechanisms
+  themes: [catalysis-mechanisms, experimental-electrocatalysis]
   type: article
   title: Mixed Electron–Proton Conductors Enable Spatial Separation of Bond Activation and Charge Transfer in Electrocatalysis
   authors: [Bing Yan, Ryan P. Bisbey, Alexander Alabugin, Yogesh Surendranath]
@@ -197,6 +199,54 @@
   pages: 11115-11122
   doi: 10.1021/jacs.9b03327
   url: https://doi.org/10.1021/jacs.9b03327
+
+- key: yoon2018surfacearea
+  theme: experimental-electrocatalysis
+  type: article
+  title: Suppressing Ion Transfer Enables Versatile Measurements of Electrochemical Surface Area for Intrinsic Activity Comparisons
+  authors: [Youngmin Yoon, Bing Yan, Yogesh Surendranath]
+  journal: Journal of the American Chemical Society
+  year: 2018
+  volume: 140
+  pages: 2397-2400
+  doi: 10.1021/jacs.7b10966
+  url: https://doi.org/10.1021/jacs.7b10966
+
+- key: yan2022mediatedhat
+  theme: experimental-electrocatalysis
+  type: article
+  title: Electrochemical Activation of C−C Bonds through Mediated Hydrogen Atom Transfer Reactions
+  authors: [Bing Yan, Changxia Shi, Gregg T. Beckham, Eugene Y.-X. Chen, Yuriy Román-Leshkov]
+  journal: ChemSusChem
+  year: 2022
+  volume: 15
+  pages: e202102317
+  doi: 10.1002/cssc.202102317
+  url: https://doi.org/10.1002/cssc.202102317
+
+- key: yan2017formatefuelcell
+  theme: experimental-electrocatalysis
+  type: article
+  title: A Membrane-Free Neutral pH Formate Fuel Cell Enabled by a Selective Nickel Sulfide Oxygen Reduction Catalyst
+  authors: [Bing Yan, Nolan M. Concannon, Jarrod D. Milshtein, Fikile R. Brushett, Yogesh Surendranath]
+  journal: Angewandte Chemie International Edition
+  year: 2017
+  volume: 56
+  pages: 7496-7499
+  doi: 10.1002/anie.201702578
+  url: https://doi.org/10.1002/anie.201702578
+
+- key: falkowski2015heazlewoodite
+  theme: experimental-electrocatalysis
+  type: article
+  title: "Heazlewoodite, Ni3S2: A Potent Catalyst for Oxygen Reduction to Water under Benign Conditions"
+  authors: [Joseph M. Falkowski, Nolan M. Concannon, Bing Yan, Yogesh Surendranath]
+  journal: Journal of the American Chemical Society
+  year: 2015
+  volume: 137
+  pages: 7978-7981
+  doi: 10.1021/jacs.5b03426
+  url: https://doi.org/10.1021/jacs.5b03426
 
 - key: yan2024catscore
   theme: catalysis-mechanisms

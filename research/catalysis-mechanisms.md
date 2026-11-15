@@ -7,10 +7,12 @@ topics: SPARK research project · Tafel analysis and thermal CO oxidation · Cat
 question: How can we distinguish catalytic mechanisms that fit the same kinetic data?
 description: Explore the ongoing SPARK project and how cyclic voltammetry, Tafel data, and thermal CO oxidation rates can distinguish competing catalytic mechanisms.
 permalink: /research/catalysis-mechanisms/
-reviewed: '2026-11-10'
+reviewed: '2026-11-14'
 ---
 
 Two reaction mechanisms can predict the same current or turnover rate. To distinguish them, look for a quantity on which their predictions diverge. For hydrogen evolution on platinum, that quantity can be the fraction of the surface occupied by hydrogen. For thermal CO oxidation, it can be how much CO remains adsorbed as the temperature rises.
+
+For the experiments behind catalyst design, see the [experimental electrocatalysis guide]({{ '/research/experimental-electrocatalysis/' | relative_url }}). It covers active surfaces, electrochemical surface area, membrane-free fuel cells, and selective C–C bond activation.
 
 ## How does SPARK use kinetic data to plan the next experiment? {#spark}
 

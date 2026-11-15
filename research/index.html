@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research themes and reading guides
-description: Reading guides on latent reasoning in chemistry, molecular conformations, literature synthesis, and how to distinguish catalytic mechanisms from kinetic measurements.
+description: Reading guides on experimental electrocatalysis, molecular conformations, chemistry reasoning, literature synthesis, and distinguishing catalytic mechanisms from kinetic data.
 permalink: /research/
 ---
 
@@ -29,7 +29,7 @@ permalink: /research/
 
   <section id="bibliography" class="guide-downloads">
     <h2>Citations and downloads</h2>
-    <p>The bibliography includes papers discussed across the four guides.</p>
+    <p>The bibliography includes papers discussed across all {{ guides | size }} guides.</p>
     <ul class="research-links">
       <li><a href="{{ '/research/reading-list.bib' | relative_url }}" download>Download BibTeX</a></li>
       <li><a href="{{ '/research/readings.json' | relative_url }}">Paper metadata (JSON)</a></li>
@@ -39,14 +39,15 @@ permalink: /research/
       <summary>Browse all {{ site.data.research_readings | size }} papers</summary>
       {% for guide in guides %}
       {% assign slug = guide.url | split: '/' | last %}
-      {% assign papers = site.data.research_readings | where: "theme", slug %}
       <h3><a href="{{ guide.url | relative_url }}">{{ guide.title | escape }}</a></h3>
       <ul>
-        {% for paper in papers %}
+        {% for paper in site.data.research_readings %}
+        {% if paper.theme == slug or paper.themes contains slug %}
         <li>
           <a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a> ({{ paper.year }})
           <span class="reading-authors">{{ paper.authors | join: ', ' | escape }}</span>
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
       {% endfor %}
