@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /research/reasonflow.bib
+---
+{% assign paper = site.data.research_readings | where: "key", "yan-etal-2026-reasonflow" | first -%}
+@{{ paper.type }}{ {{- paper.key }},
+  title = "{ {{- paper.title -}} }",
+  author = { {{- paper.authors | join: ' and ' -}} },
+  booktitle = { {{- paper.booktitle -}} },
+  year = { {{- paper.year -}} },
+  pages = { {{- paper.pages | replace: '-', '--' -}} },
+  doi = { {{- paper.doi -}} },
+  url = { {{- paper.url -}} }
+}

@@ -7,7 +7,7 @@ topics: SMILES and IUPAC consistency · Chain-of-thought supervision · Flow mat
 question: How do molecular notation and reasoning steps affect chemical predictions?
 description: Study SMILES and IUPAC consistency, then see how ReasonFlow uses chain-of-thought supervision in latent flow matching to predict molecular structures from spectra.
 permalink: /research/chemistry-language-models/
-reviewed: '2026-11-10'
+reviewed: '2026-11-17'
 ---
 
 A chemist identifying a molecule from spectra may recognize several substructures before writing the final SMILES string. Those intermediate assignments can serve as training targets for a model learning to read spectra. Once a molecule is known, its notation raises a different question. If the same molecule is given as a SMILES string or an IUPAC name, does the model make the same prediction?
@@ -15,6 +15,8 @@ A chemist identifying a molecule from spectra may recognize several substructure
 <span id="when-does-step-by-step-reasoning-help"></span>
 
 ## How can flow matching learn from a chain of thought? {#reasonflow}
+
+For the general method across arithmetic, logic, and chemistry, start with [Flow matching for reasoning: learning continuous trajectories from chain of thought]({{ '/research/flow-matching-reasoning/' | relative_url }}). The example here focuses on molecular structure elucidation.
 
 ReasonFlow uses worked solutions to train a continuous generative model. A language model encodes progressively longer prefixes of each solution as vectors. These vectors act as anchors along a path that the flow model learns to follow. At inference, given only the question, the model starts from noise, follows its learned flow, and decodes the answer at the endpoint. This is one way to use chain-of-thought supervision for latent reasoning when a reasoning trace is available only during training. [Yan et al., *ReasonFlow: Flow Matching that Thinks Step by Step*, Findings of EMNLP 2026](https://aclanthology.org/2026.findings-emnlp.2268/)
 

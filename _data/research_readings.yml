@@ -44,6 +44,7 @@
 
 - key: yan-etal-2026-reasonflow
   theme: chemistry-language-models
+  themes: [flow-matching-reasoning, chemistry-language-models]
   type: inproceedings
   title: "ReasonFlow: Flow Matching that Thinks Step by Step"
   authors: [Bing Yan, Ge Sun, Juan J. de Pablo, Stefano Martiniani, Kyunghyun Cho]
@@ -55,12 +56,22 @@
 
 - key: deng2024implicit
   theme: chemistry-language-models
+  themes: [flow-matching-reasoning, chemistry-language-models]
   type: inproceedings
   title: "From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step"
   authors: [Yuntian Deng, Yejin Choi, Stuart Shieber]
   booktitle: Advances in Neural Information Processing Systems
   year: 2024
   url: https://arxiv.org/abs/2405.14838
+
+- key: lipman2023flowmatching
+  theme: flow-matching-reasoning
+  type: inproceedings
+  title: Flow Matching for Generative Modeling
+  authors: [Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le]
+  booktitle: The Eleventh International Conference on Learning Representations
+  year: 2023
+  url: https://arxiv.org/abs/2210.02747
 
 - key: mansimov2019geometry
   theme: molecular-conformations

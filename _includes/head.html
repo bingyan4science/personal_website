@@ -17,15 +17,17 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   <!-- Open Graph / Twitter -->
+  {% if page.social_image %}{% assign social_image = page.social_image | absolute_url %}{% else %}{% assign social_image = "https://avatars.githubusercontent.com/u/32602403?v=4" %}{% endif %}
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page_title | escape }}">
   <meta property="og:description" content="{{ page_desc | escape }}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/32602403?v=4">
+  <meta property="og:image" content="{{ social_image | escape }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page_title | escape }}">
   <meta name="twitter:description" content="{{ page_desc | escape }}">
-  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/32602403?v=4">
+  <meta name="twitter:image" content="{{ social_image | escape }}">
+  {% if page.featured_paper %}{% include research-paper-schema.html %}{% endif %}
 
   <link rel="icon" type="image/png" href="/images/icon%20copy.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">

@@ -1,0 +1,27 @@
+{% assign featured_paper = site.data.research_readings | where: "key", page.featured_paper | first %}
+{% if featured_paper %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": {{ page.url | absolute_url | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "dateModified": {{ page.reviewed | jsonify }},
+  "author": {"@type": "Person", "name": "Bing Yan", "url": {{ '/' | absolute_url | jsonify }}},
+  "about": {
+    "@type": "ScholarlyArticle",
+    "@id": {{ featured_paper.url | jsonify }},
+    "name": {{ featured_paper.title | jsonify }},
+    "url": {{ featured_paper.url | jsonify }},
+    "identifier": {{ featured_paper.doi | jsonify }},
+    "author": [
+      {% for author in featured_paper.authors %}{"@type": "Person", "name": {{ author | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+    ],
+    "isPartOf": {"@type": "CreativeWork", "name": {{ featured_paper.booktitle | jsonify }}},
+    "pagination": {{ featured_paper.pages | jsonify }}
+  }
+}
+</script>
+{% endif %}
